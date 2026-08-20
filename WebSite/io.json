@@ -1,1 +1,30 @@
-
+[
+  {
+    "date": "2026-08-20",
+    "title": "SlimeMold 与 IntTest 文档上线",
+    "desc": "两个项目的文档首页与快速开始指南已发布，含下载与安装指引。",
+    "link": "docs/",
+    "tags": ["Docs", "SlimeMold", "IntTest"]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "官网技术栈全面更新",
+    "desc": "接入全部官方 logo，新增 C / Docker / OpenGL 图标，修复滚动重叠。",
+    "link": "docs/silentstudio-website/",
+    "tags": ["Website"]
+  },
+  {
+    "date": "2026-07-19",
+    "title": "IntTest 发布 v2.2.0",
+    "desc": "极限测速模式（12/8 路并发）、波动测试（Jitter / 丢包率）与结果导出。",
+    "link": "docs/inttest/guide/quickstart.html",
+    "tags": ["IntTest", "Release"]
+  },
+  {
+    "date": "2026-07-12",
+    "title": "SlimeMold 发布 v0.3.0",
+    "desc": "黏菌启发的轻量级路径规划库：BFS 气味扩散 + 加权概率爬行，零依赖。",
+    "link": "docs/slime-mold/guide/quickstart.html",
+    "tags": ["SlimeMold", "Python"]
+  }
+]
