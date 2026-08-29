@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-29",
+    "title": "JQt 发布 v0.7.4-Universal-Kit",
+    "desc": "串口模块 QSerialPort、GPU 画布 QOpenGLWidget、工业打印与数据库模块；L1 覆盖 190/205（92.7%）。已发布 Maven Central / JitPack，下载中心提供本地镜像加速。",
+    "link": "docs/jqt/",
+    "tags": ["JQt", "Release"]
+  },
+  {
+    "date": "2026-08-29",
+    "title": "文档中心统一 7 语言架构",
+    "desc": "docs.silentstudio.cn 统一文档架构上线：简中/繁中/英/日/德/俄/西 7 语言，按访问国家自动补全语言。",
+    "link": "docs/",
+    "tags": ["Docs", "Website"]
+  },
+  {
+    "date": "2026-08-29",
+    "title": "SilentGameEngine 文档上线",
+    "desc": "SGE 最终用户许可协议（EULA）与隐私政策发布，7 语言呈现。",
+    "link": "docs/sge/",
+    "tags": ["SGE", "Docs"]
+  },
+  {
     "date": "2026-08-20",
     "title": "SlimeMold 与 IntTest 文档上线",
     "desc": "两个项目的文档首页与快速开始指南已发布，含下载与安装指引。",
