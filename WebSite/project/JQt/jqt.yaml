@@ -1,0 +1,101 @@
+# JQt 发布清单（jqt.silentstudio.cn / jqt.ss.cn 自动同步数据源）
+# ============================================================
+# 维护方：JQt 开发侧。发布新版本时：追加 versions 条目 + 更新 latest + 更新 docs 链接。
+# 消费方：SSWC 自动拉取本文件 → 分析 → 下载资产 → 更新下载页 / 文档。
+# 所有链接须为直链（raw.githubusercontent.com 或 releases/download）。
+# ============================================================
+project: JQt
+repo: https://github.com/Silent-Studio-CN/JQt
+latest: v0.7.4-Universal-Kit
+
+# 文档与更新日志源文件（构建/更新文档站用）
+docs:
+  api-implemented: https://raw.githubusercontent.com/Silent-Studio-CN/JQt/main/docs/api-implemented.md
+  qt-mapping: https://raw.githubusercontent.com/Silent-Studio-CN/JQt/main/docs/qt-mapping.md
+  theming: https://raw.githubusercontent.com/Silent-Studio-CN/JQt/main/docs/theming.md
+  arm64-notes: https://raw.githubusercontent.com/Silent-Studio-CN/JQt/main/docs/arm64-notes.md
+  changelog: https://raw.githubusercontent.com/Silent-Studio-CN/JQt/main/CHANGELOG.md
+  readme: https://raw.githubusercontent.com/Silent-Studio-CN/JQt/main/README.md
+  version: https://raw.githubusercontent.com/Silent-Studio-CN/JQt/main/VERSION
+
+# 版本与资产（asset 键名约定：平台-架构-qt版本，见各版本）
+versions:
+  - tag: v0.7.4-Universal-Kit
+    name: JQt v0.7.4-Universal-Kit
+    published: 2026-08-28
+    notes: L1 92.7% (190/205) · QSerialPort 全量 · L2 批次 21 项 · 四平台 CI 全绿
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/jqt-0.7.4-Universal-Kit-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/jqt-0.7.4-Universal-Kit.jar
+      windows-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/jqt-windows-6.11.2.dll
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/libjqt-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/libjqt-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/libjqt-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.4-Universal-Kit/libjqt-6.8.3.dylib
+
+  - tag: v0.7.3-Universal-Kit
+    name: JQt v0.7.3-Universal-Kit
+    published: 2026-08-28
+    notes: QOpenGLWidget GPU 画布（paintGL + LWJGL 可挂接）
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/jqt-0.7.3-Universal-Kit-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/jqt-0.7.3-Universal-Kit.jar
+      windows-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/jqt-windows-6.11.2.dll
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/libjqt-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/libjqt-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/libjqt-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.3-Universal-Kit/libjqt-6.8.3.dylib
+
+  - tag: v0.7.2-Universal-Kit
+    name: JQt v0.7.2-Universal-Kit
+    published: 2026-08-28
+    notes: 工业模块 QPrinter（打印/PDF）+ QSql（SQLite/PostgreSQL/MySQL）
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/jqt-0.7.2-Universal-Kit-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/jqt-0.7.2-Universal-Kit.jar
+      windows-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/jqt-windows-6.11.2.dll
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/libjqt-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/libjqt-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/libjqt-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.2-Universal-Kit/libjqt-6.8.3.dylib
+
+  - tag: v0.7.1-Universal-Kit
+    name: JQt v0.7.1-Universal-Kit
+    published: 2026-08-28
+    notes: L1 收尾 · 新类 QAction/QDialog/QMenuBar/QListView · QClipboard 图像
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/jqt-0.7.1-Universal-Kit-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/jqt-0.7.1-Universal-Kit.jar
+      windows-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/jqt-windows-6.11.2.dll
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/libjqt-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/libjqt-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/libjqt-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.1-Universal-Kit/libjqt-6.8.3.dylib
+
+  - tag: v0.7.0-Universal-Kit
+    name: JQt v0.7.0-Universal-Kit
+    published: 2026-08-28
+    notes: 跨平台独家能力（防休眠/自启/通知）· 任务栏进度/Dock 角标
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/jqt-0.7.0-Universal-Kit-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/jqt-0.7.0-Universal-Kit.jar
+      windows-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/jqt-windows-6.11.2.dll
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/libjqt-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/libjqt-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/libjqt-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/libjqt-6.8.3.dylib
