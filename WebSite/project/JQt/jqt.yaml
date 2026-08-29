@@ -99,3 +99,135 @@ versions:
       linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/libjqt-6.8.3.so
       macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/libjqt-6.11.2.dylib
       macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.0-Universal-Kit/libjqt-6.8.3.dylib
+
+  - tag: v0.6.1-Exclusive-Kit
+    name: JQt v0.6.1-Exclusive-Kit
+    published: 2026-08-28
+    notes: Exclusive Kit 独家能力包：防休眠/自启/通知/任务栏进度/DWM 窗口样式（Windows 专属版）
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/jqt-0.6.1-Exclusive-Kit-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/jqt-0.6.1-Exclusive-Kit.jar
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.1-Exclusive-Kit/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.6.0-TEST
+    name: JQt v0.6.0-TEST
+    published: 2026-08-27
+    notes: L1 常用 API 补全 + 社区反馈修复
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/jqt-0.6.0-TEST-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/jqt-0.6.0-TEST.jar
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.6.0-TEST/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.5.1-TEST
+    name: JQt v0.5.1-TEST
+    published: 2026-08-27
+    notes: 启动体验修复 + 主题健壮性
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/jqt-0.5.1-TEST-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/jqt-0.5.1-TEST.jar
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.1-TEST/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.5.0-TEST
+    name: JQt v0.5.0-TEST
+    published: 2026-08-27
+    notes: 版本命名规则更新（-TEST 后缀）
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/jqt-0.5.0-TEST-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/jqt-0.5.0-TEST.jar
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.5.0-TEST/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.4.1-alpha
+    name: JQt v0.4.1-alpha
+    published: 2026-08-27
+    notes: Qt API 对齐版：类名 Q 化 + 信号对齐 + 链式 API
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/jqt-0.4.1-alpha-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/jqt-0.4.1-alpha.jar
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.1-alpha/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.4.0-alpha
+    name: JQt v0.4.0-alpha
+    published: 2026-08-26
+    notes: 新控件六件套 / Windows ARM64 / qf light 皮肤
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/jqt-0.4.0-alpha-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/jqt-0.4.0-alpha.jar
+      windows-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/jqt-windows-6.11.2.dll
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.4.0-alpha/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.3.0-alpha
+    name: JQt v0.3.0-alpha
+    published: 2026-08-26
+    notes: 触摸实战 / 主题系统 / 基础 API 补齐
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.3.0-alpha/jqt-0.3.0-alpha-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.3.0-alpha/jqt-0.3.0-alpha.jar
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.3.0-alpha/jqt-windows-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.3.0-alpha/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.3.0-alpha/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.3.0-alpha/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.3.0-alpha/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.2.0-alpha
+    name: JQt v0.2.0-alpha
+    published: 2026-08-25
+    notes: Fluent 全家桶：开关/动画/标题栏/触摸适配/第三方皮肤验证
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.2.0-alpha/jqt-0.2.0-alpha-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.2.0-alpha/jqt-0.2.0-alpha.jar
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.2.0-alpha/jqt-windows-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.2.0-alpha/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.2.0-alpha/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.2.0-alpha/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.2.0-alpha/libjqt-macos-6.8.3.dylib
+
+  - tag: v0.1.0-alpha
+    name: JQt v0.1.0-alpha
+    published: 2026-08-25
+    notes: 首个 Alpha：Phase 0-6 完成，三平台 CI 全绿
+    assets:
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/jqt-0.1.0-alpha.jar
+      windows-x64-6.11.2-full: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/jqt-windows-6.11.2-full.zip
+      windows-x64-6.8.3-full: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/jqt-windows-6.8.3-full.zip
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/jqt-windows-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/libjqt-linux-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/libjqt-linux-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/libjqt-macos-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.1.0-alpha/libjqt-macos-6.8.3.dylib
+
