@@ -6,7 +6,7 @@
 # ============================================================
 project: JQt
 repo: https://github.com/Silent-Studio-CN/JQt
-latest: v0.7.4-Universal-Kit
+latest: v0.7.5-Generator-Kit
 
 # 文档与更新日志源文件（构建/更新文档站用）
 docs:
@@ -20,6 +20,22 @@ docs:
 
 # 版本与资产（asset 键名约定：平台-架构-qt版本，见各版本）
 versions:
+  - tag: v0.7.5-Generator-Kit
+    name: JQt v0.7.5-Generator-Kit
+    published: 2026-08-31
+    notes: JQt 自动化生产时代（API 机器生成非机翻）· 生成器 332 方法/31 类 · JNI 链接修复 · QInputDialog 实例模式 · QSqlDatabase 手写批次 · Rust 构建器
+    assets:
+      windows-x64-zip: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/jqt-0.7.5-Generator-Kit-windows-x64.zip
+      jar: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/jqt-0.7.5-Generator-Kit.jar
+      windows-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/jqt-windows-6.11.2.dll
+      windows-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/jqt-windows-6.8.3.dll
+      windows-arm64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/jqt-windows-arm64-6.11.2.dll
+      windows-arm64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/jqt-windows-arm64-6.8.3.dll
+      linux-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/libjqt-6.11.2.so
+      linux-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/libjqt-6.8.3.so
+      macos-x64-qt6112: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/libjqt-6.11.2.dylib
+      macos-x64-qt683: https://github.com/Silent-Studio-CN/JQt/releases/download/v0.7.5-Generator-Kit/libjqt-6.8.3.dylib
+
   - tag: v0.7.4-Universal-Kit
     name: JQt v0.7.4-Universal-Kit
     published: 2026-08-28
