@@ -1,0 +1,115 @@
+SXCL 安卓 JRE 随包说明(NOTICE)
+============================================================
+
+组件(component) : jre21
+Java 版本        : 21.0.12
+实现者(vendor)   : Termux
+目标 ABI         : arm64-v8a
+打包时间戳       : 2026-09-21T12:32:10Z
+打包脚本         : android/scripts/pack_jre_from_termux.py(SXCX-C 仓库)
+
+一、这套二进制是从哪来的(可核对的物证)
+------------------------------------------------------------
+  * Termux 包 openjdk-21 21.0.12 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 libandroid-shmem 0.7 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 libandroid-spawn 0.3 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 libandroid-sysv-semaphore 0.1-1 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 libiconv 1.19 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 libjpeg-turbo 3.2.0 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 zlib 1.3.2 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 littlecms 2.19.1 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 alsa-lib 1.2.16.1 (aarch64)
+      .deb sha256 = ?
+  * Termux 包 termux-licenses 2.2 (all)
+      .deb sha256 = ?
+  * 上游 OpenJDK 源码(termux build.sh 里的 TERMUX_PKG_SRCURL):
+      https://github.com/openjdk/jdk21u/archive/refs/tags/jdk-21.0.12-ga.tar.gz
+      sha256 = 1efd38fa2729d32cdf0ed4c9197c31ee31890ad1b7bff82984992e0c2c67c72b
+  * Termux 包版本变量 TERMUX_PKG_VERSION = 21.0.12
+
+二、许可(逐条)
+------------------------------------------------------------
+  * OpenJDK(本包主体):GPL-2.0 only + OpenJDK Assembly/Classpath 例外。
+      全文在本目录 jdk-legal/java.base/LICENSE(GPLv2)、
+      jdk-legal/java.base/ASSEMBLY_EXCEPTION(例外条款)、
+      jdk-legal/java.base/ADDITIONAL_LICENSE_INFO(混合许可说明);
+      同样的 legal/ 也原样留在 universal.tar.xz 里(没有裁掉,也不许裁)。
+      版权头:每个源文件/每个镜像文件里的版权声明原样保留;本包不做任何二进制修改。
+  * 额外一起重发布的共享库(不是 JDK 镜像的一部分,见本目录 packages/):
+      libandroid-shmem -> packages/libandroid-shmem/copyright
+      libandroid-spawn -> packages/libandroid-spawn/LICENSE
+      libandroid-sysv-semaphore -> packages/libandroid-sysv-semaphore/copyright
+      libjpeg-turbo -> packages/libjpeg-turbo/LICENSE.md
+      zlib -> packages/zlib/copyright
+      littlecms -> packages/littlecms/copyright
+      termux-licenses -> packages/termux-licenses/copyright
+      openjdk-21 -> packages/openjdk-21/copyright
+      libiconv -> packages/libiconv/copyright
+      libiconv -> packages/libiconv/copyright.1
+      alsa-lib -> packages/alsa-lib/copyright
+      termux-licenses -> licenses/AGPL-3.0-only.txt
+      termux-licenses -> licenses/AGPL-3.0-or-later.txt
+      termux-licenses -> licenses/AGPL-3.0.txt
+      termux-licenses -> licenses/Apache-2.0.txt
+      termux-licenses -> licenses/Artistic-License-2.0.txt
+      termux-licenses -> licenses/BSL-1.0.txt
+      termux-licenses -> licenses/CC0-1.0.txt
+      termux-licenses -> licenses/CeCILL-2.1.txt
+      termux-licenses -> licenses/EPL-1.0.txt
+      termux-licenses -> licenses/EPL-2.0.txt
+      termux-licenses -> licenses/GPL-2.0-only.txt
+      termux-licenses -> licenses/GPL-2.0-or-later.txt
+      termux-licenses -> licenses/GPL-2.0.txt
+      termux-licenses -> licenses/GPL-3.0-only.txt
+      termux-licenses -> licenses/GPL-3.0-or-later.txt
+      termux-licenses -> licenses/GPL-3.0.txt
+      termux-licenses -> licenses/ISC.txt
+      termux-licenses -> licenses/ImageMagick.txt
+      termux-licenses -> licenses/LGPL-2.0-only.txt
+      termux-licenses -> licenses/LGPL-2.0-or-later.txt
+      termux-licenses -> licenses/LGPL-2.0.txt
+      termux-licenses -> licenses/LGPL-2.1-only.txt
+      termux-licenses -> licenses/LGPL-2.1-or-later.txt
+      termux-licenses -> licenses/LGPL-2.1.txt
+      termux-licenses -> licenses/LGPL-3.0-only.txt
+      termux-licenses -> licenses/LGPL-3.0-or-later.txt
+      termux-licenses -> licenses/LGPL-3.0.txt
+      termux-licenses -> licenses/MPL-2.0.txt
+      termux-licenses -> licenses/NCSA.txt
+      termux-licenses -> licenses/Nethack.txt
+      termux-licenses -> licenses/OpenLDAP.txt
+      termux-licenses -> licenses/PHP-3.0.txt
+      termux-licenses -> licenses/Public Domain.txt
+      termux-licenses -> licenses/Unlicense.txt
+      termux-licenses -> licenses/VIM License.txt
+      termux-licenses -> licenses/WTFPL.txt
+      termux-licenses -> licenses/wxWindows.txt
+  * 我们自己的两个 shim(libawt_xawt.so / libjsound.so)不在这两个包里:
+      它们随 APK 发布(android/jni/jre-libs/,来源与许可见该目录 README.md),
+      由启动器在安装 FINISH 阶段拷进 <jre21>/lib。
+      谁优先:拷贝是**后写覆盖**,所以同样文件名时我们自己的 shim 一定赢;
+      这不是“可选优化”——Termux 主包不含 libawt_xawt.so(它在 openjdk-*-x 子包里),
+      而它自带的 libjsound.so 链 ALSA(libasound.so.2),我们的包里不带 alsa。
+
+三、我们做了什么改动(repackage,不是 rebuild)
+------------------------------------------------------------
+  * 二进制**一个字节都没改**(没有 patchelf、没有 strip、没有重链接)。
+  * 只做了三件事:① 按内容把镜像切成 universal/bin-arm64 两个 tar.xz;
+    ② 把上面列的依赖库搬进 <jre>/lib(让 LD_LIBRARY_PATH=<jre>/lib 一个路径够用);
+    ③ 裁掉了 JDK-only 的部分:jmods, include, man, demo, sample, lib/src.zip。
+  * 因此二进制里仍留着 Termux 的绝对 RUNPATH(/data/data/com.termux/files/usr),重打包后那是死路径;
+    运行时必须由启动器设 LD_LIBRARY_PATH=<jre>/lib:<nativeLibraryDir>(见 docs/18 §4.3)。
+
+四、免责
+------------------------------------------------------------
+  本包由第三方构建(Termux 项目)产出,SXCX-C 只做原样重打包与分发;
+  无任何担保。许可全文见本目录与包内 legal/。
+

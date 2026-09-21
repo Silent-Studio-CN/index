@@ -1,0 +1,11 @@
+id=jre21/21.0.12/arm64-v8a/360013a3aa4469e5
+component=jre21
+version=21.0.12
+abi=arm64-v8a
+shim_dir=lib
+trimmed=jmods,include,man,demo,sample,lib/src.zip
+universal.size=33087332
+universal.sha256=167b4c3e69acb6325234a0d64f1e32603038933ff5a2adec76d850d8961fc082
+bin-arm64.size=5902036
+bin-arm64.sha256=f3d487bb83a1d970eb969837489289e10d10c5e5b364a7c384b790b15ad8009c
+# sxcl jre package marker - id 由上面两个包的 sha256 派生(内容派生,不是手改的计数器)

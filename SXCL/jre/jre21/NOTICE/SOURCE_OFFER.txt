@@ -1,0 +1,26 @@
+对应源码的获取方式(SOURCE OFFER)
+============================================================
+
+本目录/本包分发的是 OpenJDK 的**未经修改的**二进制(Android/aarch64),
+由 Termux 项目构建。GPLv2 第 3 节要求随二进制一起提供“对应源码”的获取途径,
+下面就是这份途径(全部为公开地址,不需要向我们索取):
+
+1) OpenJDK 源码(本包主体的对应源码,版本 21.0.12):
+     URL    : https://github.com/openjdk/jdk21u/archive/refs/tags/jdk-21.0.12-ga.tar.gz
+     sha256 : 1efd38fa2729d32cdf0ed4c9197c31ee31890ad1b7bff82984992e0c2c67c72b
+   注:这就是 Termux 的 build.sh 里 TERMUX_PKG_SRCURL/TERMUX_PKG_SHA256 指向的那份,
+   即本包二进制的构建输入;我们把它原样记录在这里,不代替你下载。
+
+2) 构建脚本与补丁(Termux 的公开仓库,packages/openjdk-21/):
+     https://github.com/termux/termux-packages/tree/master/packages/openjdk-21
+   该目录下的 build.sh 与 *.patch 就是“源码 -> 本包二进制”的全部配方。
+
+3) 我们自己的重打包脚本(把上面产物切成两个 tar.xz 的那一步,不是构建):
+     SXCX-C 仓库 android/scripts/pack_jre_from_termux.py(连同本目录的索引可复现)
+
+4) 额外一起分发的共享库的对应源码:见本目录 packages/<包名>/,
+   每个包名对应 Termux 仓库 packages/<包名>/ 里的 build.sh(源码地址写在里面)。
+
+以上地址都是公开的;如果任一地址失效,可以通过 Termux 的镜像站取同名文件,
+或者直接向本项目要(联系方式见仓库 README)。
+

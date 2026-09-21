@@ -1,0 +1,11 @@
+id=jre17/17.0.20/arm64-v8a/9f87f8de24c52431
+component=jre17
+version=17.0.20
+abi=arm64-v8a
+shim_dir=lib
+trimmed=jmods,include,man,demo,sample,lib/src.zip
+universal.size=31132644
+universal.sha256=aa11db5ff7f38101b51d367af16e885702cc97ffcdabc5bea76c27360ce9bcaf
+bin-arm64.size=4630460
+bin-arm64.sha256=cd6a527c2373c7a4bfa56dc63478e373f3f4e5508525db30b1c8119363fb84b7
+# sxcl jre package marker - id 由上面两个包的 sha256 派生(内容派生,不是手改的计数器)
