@@ -1,0 +1,29 @@
+对应源码的获取方式(SOURCE OFFER)
+============================================================
+
+本目录/本包分发的是 OpenJDK 的**未经修改的**二进制(Android/aarch64)。
+GPLv2 第 3 节要求随二进制一起提供“对应源码”的获取途径,下面就是这份途径
+(全部为公开地址,不需要向我们索取):
+
+1) 我们拿到的上游产物(能点到具体文件,sha256 是我们下载后实测的):
+     名字     : PojavLauncher.apk(assets/components/jre/{universal,bin-arm64}.tar.xz)
+     URL      : https://github.com/PojavLauncherTeam/PojavLauncher/releases/download/gladiolus/PojavLauncher.apk
+     sha256   : cc8479e1600e3a094d2184bbb88b19809ce41a0f8f7882aefd4527c9d032fc56
+     拿到日期 : 2026-09-21
+     构建方   : PojavLauncherTeam(其 Android arm64 OpenJDK 8u 构建)
+
+2) 这份二进制对应的 OpenJDK 源码:
+     源码仓库 : https://github.com/AngelAuraMC/openjdk-multiarch-jdk8u
+     构建提交 : .:git:1a6e3a5ea32d+
+     (取自镜像自带的 release 文件里的 SOURCE 字段 —— 这是构建方编译时用的那棵源码树)
+     许可     : GPLv2 + Classpath 例外(全文见本目录 jdk-legal/)
+
+3) 我们自己的重打包脚本(把上面产物切成两个 tar.xz 的那一步,不是构建):
+     SXCX-C 仓库 android/scripts/pack_jre_from_termux.py(连同本目录的索引可复现)
+
+4) 本包**不含**额外的第三方共享库(依赖闭包已在上游镜像里,实测无缺);
+   如果将来补进来,它们的源码地址会逐包写在本目录 packages/<包名>/ 里。
+
+以上地址都是公开的;如果任一地址失效,可以换用同名镜像,或者直接向本项目要
+(联系方式见仓库 README)。
+

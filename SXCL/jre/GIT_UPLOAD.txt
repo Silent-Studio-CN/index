@@ -1,0 +1,27 @@
+SXCX-C 安卓 JRE —— GitHub 托管操作清单(2026-09-21T12:55:23Z)
+================================================================================================
+
+1) 放哪:建议**独立仓库**(例:Silent-Studio-CN/sxcl-jre),分支 main。
+   理由:这里是 894 个文件 / 135.55 MiB (142135366 B) 的二进制资产,和业务代码无关;塞进已有业务仓库会让 clone/push 变重。
+   仓库根的**内容** = 本目录(D:\SilentStudio\_termux_jre\out)的内容,即仓库根下就应该是 index.json、UPLOAD.txt、jre17/…
+
+2) 怎么推(下面四行是给**人**跑的,本脚本不做任何 git 操作):
+   git init && git add -A && git commit -m "jre packages 2026-09-21T12:55:23Z"
+   git remote add origin https://github.com/<owner>/<repo>.git
+   git push -u origin main
+   (增量上传:只 add 下面"本次新增/变更"的文件即可,不用重传全部)
+
+3) 单文件上限:GitHub 单文件 **100 MiB**(>50 MiB 会警告)。
+   本目录最大的文件是 jre25/universal.tar.xz(36.71 MiB (38491816 B))→ **不需要 Git LFS**。
+
+4) 下载地址怎么拼(两种前缀拼同一段相对路径):
+   主:https://raw.githubusercontent.com/Silent-Studio-CN/index/main/SXCL/jre/jre17/universal.tar.xz
+   备:https://gh-proxy.com/https://raw.githubusercontent.com/Silent-Studio-CN/index/main/SXCL/jre/jre17/universal.tar.xz
+   → 这两条现在就是可用地址
+
+5) **jsDelivr 不能当镜像**:它给 GitHub 端点的单文件上限是 20 MiB(社区/官方 FAQ 口径),
+   而 universal.tar.xz 是 31~38 MiB(超了),只有 bin-arm64.tar.xz(4.6~6.4 MiB)在限内 →
+   整体镜像不了,别把它写进清单。国内备用就用 gh-proxy 前缀(第 4 条那种)。
+
+6) 增量上传:UPLOAD.txt 里标了 NEW/CHG/SAME;本次 NEW+CHG 共 1 个 / 890.58 KiB (911950 B)。
+

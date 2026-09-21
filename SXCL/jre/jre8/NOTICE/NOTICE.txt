@@ -1,0 +1,55 @@
+SXCL 安卓 JRE 随包说明(NOTICE)
+============================================================
+
+组件(component) : jre8
+Java 版本        : 1.8.0_442
+实现者(vendor)   : 
+目标 ABI         : arm64-v8a
+打包时间戳       : 2026-09-21T12:55:02Z
+打包脚本         : android/scripts/pack_jre_from_termux.py(SXCX-C 仓库)
+
+一、这套二进制是从哪来的(可核对的物证)
+------------------------------------------------------------
+  * 上游产物(我们真正下载并核过 sha256 的那份字节):
+      名字     = PojavLauncher.apk(assets/components/jre/{universal,bin-arm64}.tar.xz)
+      URL      = https://github.com/PojavLauncherTeam/PojavLauncher/releases/download/gladiolus/PojavLauncher.apk
+      sha256   = cc8479e1600e3a094d2184bbb88b19809ce41a0f8f7882aefd4527c9d032fc56
+      拿到日期 = 2026-09-21
+      构建方   = PojavLauncherTeam(其 Android arm64 OpenJDK 8u 构建)
+      对应源码 = https://github.com/AngelAuraMC/openjdk-multiarch-jdk8u
+      镜像自带 release 文件里的 SOURCE = .:git:1a6e3a5ea32d+(这份二进制对应的源码提交)
+      备注     = 二进制 release 文件:JAVA_VERSION=1.8.0_442 / OS_ARCH=aarch64 / SOURCE=.:git:1a6e3a5ea32d+(= 构建用的 jdk8u 源码提交)
+      备注     = APK 内 version 文件内容 = c8f90f5f588edd93f7202217a37e83e3b4ac1fa1;zip CRC32 universal=3f97dee7 bin-arm64=2b0af580
+      备注     = 与 FCL 的 jre8 资产不是同一份打包(FCL: universal 9540292 B / bin 4347796 B;本份是同一版本串的另一份打包)
+      备注     = 树的布局是 JRE-8 镜像:bin/ + lib/aarch64/**(含 lib/aarch64/jli/libjli.so),没有 jre/ 子目录
+  * 明确一句:这个包**不是** Termux 的 dpkg 构建,也不是我们编的;
+    我们只做了“从上游产物里原样取出 -> 按内容切两个 tar.xz -> 补齐依赖库”这三步(见第三节)。
+
+二、许可(逐条)
+------------------------------------------------------------
+  * OpenJDK(本包主体):GPL-2.0 only + OpenJDK Assembly/Classpath 例外。
+      全文在本目录 jdk-legal/java.base/LICENSE(GPLv2)、
+      jdk-legal/java.base/ASSEMBLY_EXCEPTION(例外条款)、
+      jdk-legal/java.base/ADDITIONAL_LICENSE_INFO(混合许可说明);
+      同样的 legal/ 也原样留在 universal.tar.xz 里(没有裁掉,也不许裁)。
+      版权头:每个源文件/每个镜像文件里的版权声明原样保留;本包不做任何二进制修改。
+  * 额外一起重发布的共享库(不是 JDK 镜像的一部分,见本目录 packages/):
+  * 我们自己的两个 shim(libawt_xawt.so / libjsound.so)不在这两个包里:
+      它们随 APK 发布(android/jni/jre-libs/,来源与许可见该目录 README.md),
+      由启动器在安装 FINISH 阶段拷进 <jre8>/lib/aarch64。
+      谁优先:拷贝是**后写覆盖**,所以同样文件名时我们自己的 shim 一定赢;
+      这不是“可选优化”——上游镜像自带的 libawt_xawt.so / libjsound.so 是**桩版**
+      (jre8 那份实测 5,392 B / 5,464 B),功能靠我们这两个 shim 顶;同名文件由我们覆盖。
+
+三、我们做了什么改动(repackage,不是 rebuild)
+------------------------------------------------------------
+  * 二进制**一个字节都没改**(没有 patchelf、没有 strip、没有重链接)。
+  * 只做了三件事:① 按内容把镜像切成 universal/bin-arm64 两个 tar.xz;
+    ② 把上面列的依赖库搬进 <jre>/lib(让 LD_LIBRARY_PATH=<jre>/lib 一个路径够用);
+    ③ 裁掉了 JDK-only 的部分:jmods, include, man, demo, sample, lib/src.zip。
+
+四、免责
+------------------------------------------------------------
+  本包由第三方构建(PojavLauncherTeam(其 Android arm64 OpenJDK 8u 构建))产出,SXCX-C 只做原样重打包与分发;
+  无任何担保。许可全文见本目录与包内 legal/。
+

@@ -1,898 +1,908 @@
-SXCX-C 安卓 JRE 上传清单(生成时间 2026-09-21T12:32:10Z)
-==============================================================================
-怎么用:把本文件所在的整个目录(= D:\SilentStudio\_termux_jre\out)原样上传到你的托管根目录。
-  * 目录结构必须保住:<远端根>/index.json、<远端根>/<component>/universal.tar.xz ...
-  * 本地相对路径 == 远端相对路径(下面的每一条都是这样)。
-  * 校验:每一行的 sha256 前 16 位;完整 sha256/sha1 在 index.json 里(逐文件都有)。
-------------------------------------------------------------------------------
-相对路径                                                           字节  sha256[0:16]
-index.json                                                 602151  bc03defb052d1cf0
-jre17/bin-arm64.tar.xz                                    4630460  cd6a527c2373c7a4
-jre17/universal.tar.xz                                   31132644  aa11db5ff7f38101
-jre17/version                                                 470  06f583473aad44ca
-jre17/NOTICE/NOTICE.txt                                      5942  bfb9faeb92c2b4c8
-jre17/NOTICE/README.txt                                       989  d287c3fecc8b9cce
-jre17/NOTICE/SOURCE_OFFER.txt                                1576  f58ebce00f080693
-jre17/NOTICE/jdk-legal/java.base/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.base/ASSEMBLY_EXCEPTION          1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.base/LICENSE                    19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.base/aes.md                      1444  45c6d4da48325edf
-jre17/NOTICE/jdk-legal/java.base/asm.md                      1584  1ff912740e84e024
-jre17/NOTICE/jdk-legal/java.base/c-libutl.md                 1556  bef40679922d6fdf
-jre17/NOTICE/jdk-legal/java.base/cldr.md                     9130  f2bd33ded550a05d
-jre17/NOTICE/jdk-legal/java.base/icu.md                     11086  af0057e855390608
-jre17/NOTICE/jdk-legal/java.base/public_suffix.md           17785  e7705b408e894e91
-jre17/NOTICE/jdk-legal/java.base/siphash.md                  8256  5a792b5a74ad2a5f
-jre17/NOTICE/jdk-legal/java.base/unicode.md                  2384  5e4e6623a21a63f9
-jre17/NOTICE/jdk-legal/java.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.compiler/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.compiler/LICENSE                19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.datatransfer/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.datatransfer/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.datatransfer/LICENSE            19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.desktop/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.desktop/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.desktop/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.desktop/colorimaging.md           167  04d61e3e8e71dd45
-jre17/NOTICE/jdk-legal/java.desktop/harfbuzz.md              3629  5ec7cba7f8e7fc3a
-jre17/NOTICE/jdk-legal/java.desktop/mesa3d.md                5732  63f4e6f75caebbcc
-jre17/NOTICE/jdk-legal/java.desktop/pipewire.md              1479  56a8fb1652c70ac2
-jre17/NOTICE/jdk-legal/java.desktop/xwd.md                   1348  1d4ffa93c87f3508
-jre17/NOTICE/jdk-legal/java.instrument/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.instrument/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.instrument/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.logging/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.logging/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.logging/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.management/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.management/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.management.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.management.rmi/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.management.rmi/LICENSE          19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.naming/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.naming/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.naming/LICENSE                  19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.net.http/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.net.http/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.net.http/LICENSE                19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.prefs/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.prefs/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.prefs/LICENSE                   19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.rmi/ASSEMBLY_EXCEPTION           1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.rmi/LICENSE                     19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.scripting/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.scripting/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.scripting/LICENSE               19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.se/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.se/ASSEMBLY_EXCEPTION            1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.se/LICENSE                      19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.security.jgss/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.security.jgss/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.security.jgss/LICENSE           19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.security.sasl/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.security.sasl/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.security.sasl/LICENSE           19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.smartcardio/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.smartcardio/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.smartcardio/LICENSE             19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.smartcardio/pcsclite.md          2155  b39ce363c281ed36
-jre17/NOTICE/jdk-legal/java.sql/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.sql/ASSEMBLY_EXCEPTION           1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.sql/LICENSE                     19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.sql.rowset/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.sql.rowset/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.transaction.xa/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.transaction.xa/LICENSE          19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.xml/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.xml/ASSEMBLY_EXCEPTION           1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.xml/LICENSE                     19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.xml/bcel.md                     11196  cd578186ad93de46
-jre17/NOTICE/jdk-legal/java.xml/dom.md                       3761  6686e8877667584a
-jre17/NOTICE/jdk-legal/java.xml/jcup.md                      1448  8d5dcfdf50455a3c
-jre17/NOTICE/jdk-legal/java.xml/xalan.md                    13494  ea67226be5cfe19c
-jre17/NOTICE/jdk-legal/java.xml/xerces.md                   11852  472224f99de833f4
-jre17/NOTICE/jdk-legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/java.xml.crypto/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/java.xml.crypto/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/java.xml.crypto/santuario.md         11505  d08690d25f660f14
-jre17/NOTICE/jdk-legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.accessibility/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.accessibility/LICENSE            19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.attach/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.attach/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.attach/LICENSE                   19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.charsets/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.charsets/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.charsets/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.compiler/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.compiler/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/LICENSE          19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md         4095  1f36ff1342a58114
-jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11wrapper.md         2131  371974b1fca3744a
-jre17/NOTICE/jdk-legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.crypto.ec/LICENSE                19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.dynalink/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.dynalink/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.dynalink/dynalink.md              1502  17312591cabee3ef
-jre17/NOTICE/jdk-legal/jdk.editpad/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.editpad/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.editpad/LICENSE                  19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.hotspot.agent/LICENSE            19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.httpserver/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.httpserver/LICENSE               19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.incubator.foreign/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.incubator.foreign/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.incubator.foreign/LICENSE        19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.incubator.vector/LICENSE         19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.internal.ed/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.internal.ed/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.internal.jvmstat/LICENSE         19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.internal.le/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.internal.le/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.internal.le/jline.md              1579  a6fb63a226b77b03
-jre17/NOTICE/jdk-legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.internal.opt/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.internal.opt/LICENSE             19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.internal.opt/jopt-simple.md         1122  99bc67f93cf57d6d
-jre17/NOTICE/jdk-legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.internal.vm.ci/LICENSE           19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler/LICENSE        19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/LICENSE        19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jartool/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jartool/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jartool/LICENSE                  19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.javadoc/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.javadoc/LICENSE                  19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.javadoc/jquery.md                 1157  b68f454c2bd58959
-jre17/NOTICE/jdk-legal/jdk.javadoc/jqueryUI.md               1871  7854d2d568992ae2
-jre17/NOTICE/jdk-legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jcmd/ASSEMBLY_EXCEPTION           1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jcmd/LICENSE                     19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jconsole/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jconsole/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jdeps/ASSEMBLY_EXCEPTION          1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jdeps/LICENSE                    19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jdi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jdi/ASSEMBLY_EXCEPTION            1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jdi/LICENSE                      19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jdwp.agent/LICENSE               19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jfr/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jfr/ASSEMBLY_EXCEPTION            1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jfr/LICENSE                      19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jlink/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jlink/ASSEMBLY_EXCEPTION          1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jlink/LICENSE                    19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jpackage/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jpackage/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jshell/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jshell/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jshell/LICENSE                   19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jsobject/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jsobject/LICENSE                 19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.jstatd/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.jstatd/LICENSE                   19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.localedata/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.localedata/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.localedata/LICENSE               19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.localedata/cldr.md                9130  f2bd33ded550a05d
-jre17/NOTICE/jdk-legal/jdk.localedata/thaidict.md            1346  c326144a2351c960
-jre17/NOTICE/jdk-legal/jdk.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.management/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.management/LICENSE               19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.management.agent/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.management.agent/LICENSE         19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.management.jfr/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.management.jfr/LICENSE           19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.naming.dns/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.naming.dns/LICENSE               19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.naming.rmi/LICENSE               19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.net/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.net/ASSEMBLY_EXCEPTION            1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.net/LICENSE                      19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.nio.mapmode/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.random/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.random/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.random/LICENSE                   19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.sctp/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.sctp/ASSEMBLY_EXCEPTION           1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.sctp/LICENSE                     19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.security.auth/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.security.auth/LICENSE            19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.security.jgss/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.security.jgss/LICENSE            19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.unsupported/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.unsupported/LICENSE              19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.unsupported.desktop/LICENSE        19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.xml.dom/ASSEMBLY_EXCEPTION         1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.xml.dom/LICENSE                  19274  4b9abebc4338048a
-jre17/NOTICE/jdk-legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre17/NOTICE/jdk-legal/jdk.zipfs/ASSEMBLY_EXCEPTION          1522  a44eb7b5caf5534c
-jre17/NOTICE/jdk-legal/jdk.zipfs/LICENSE                    19274  4b9abebc4338048a
-jre17/NOTICE/licenses/AGPL-3.0-only.txt                     34523  0d96a4ff68ad6d4b
-jre17/NOTICE/licenses/AGPL-3.0-or-later.txt                 34523  0d96a4ff68ad6d4b
-jre17/NOTICE/licenses/AGPL-3.0.txt                          34523  0d96a4ff68ad6d4b
-jre17/NOTICE/licenses/Apache-2.0.txt                        11358  cfc7749b96f63bd3
-jre17/NOTICE/licenses/Artistic-License-2.0.txt               6108  b06b8a07ae5c40f5
-jre17/NOTICE/licenses/BSL-1.0.txt                            1280  7f8a88ce52c07996
-jre17/NOTICE/licenses/CC0-1.0.txt                            7048  a2010f343487d3f7
-jre17/NOTICE/licenses/CeCILL-2.1.txt                        21777  506e5ae49c2931f7
-jre17/NOTICE/licenses/EPL-1.0.txt                           11320  0435570a20c5b246
-jre17/NOTICE/licenses/EPL-2.0.txt                           14200  2efc4c34579dc45f
-jre17/NOTICE/licenses/GPL-2.0-only.txt                      18092  8177f97513213526
-jre17/NOTICE/licenses/GPL-2.0-or-later.txt                  18092  8177f97513213526
-jre17/NOTICE/licenses/GPL-2.0.txt                           18092  8177f97513213526
-jre17/NOTICE/licenses/GPL-3.0-only.txt                      35149  3972dc9744f6499f
-jre17/NOTICE/licenses/GPL-3.0-or-later.txt                  35149  3972dc9744f6499f
-jre17/NOTICE/licenses/GPL-3.0.txt                           35149  3972dc9744f6499f
-jre17/NOTICE/licenses/ISC.txt                                 731  45fefea443e839d0
-jre17/NOTICE/licenses/ImageMagick.txt                       12443  5b47db9327547434
-jre17/NOTICE/licenses/LGPL-2.0-only.txt                     25383  b7993225104d90dd
-jre17/NOTICE/licenses/LGPL-2.0-or-later.txt                 25383  b7993225104d90dd
-jre17/NOTICE/licenses/LGPL-2.0.txt                          25383  b7993225104d90dd
-jre17/NOTICE/licenses/LGPL-2.1-only.txt                     26530  dc626520dcd53a22
-jre17/NOTICE/licenses/LGPL-2.1-or-later.txt                 26530  dc626520dcd53a22
-jre17/NOTICE/licenses/LGPL-2.1.txt                          26530  dc626520dcd53a22
-jre17/NOTICE/licenses/LGPL-3.0-only.txt                      7652  e3a994d82e644b03
-jre17/NOTICE/licenses/LGPL-3.0-or-later.txt                  7652  e3a994d82e644b03
-jre17/NOTICE/licenses/LGPL-3.0.txt                           7652  e3a994d82e644b03
-jre17/NOTICE/licenses/MPL-2.0.txt                           15192  9bc20a15c6140769
-jre17/NOTICE/licenses/NCSA.txt                               1662  aecb9504bcc76b4f
-jre17/NOTICE/licenses/Nethack.txt                            4875  93a3ae2cb8dee482
-jre17/NOTICE/licenses/OpenLDAP.txt                           2214  310fe25c858a9515
-jre17/NOTICE/licenses/PHP-3.0.txt                            3194  e4f797cb2c221a20
-jre17/NOTICE/licenses/Public Domain.txt                      7048  a2010f343487d3f7
-jre17/NOTICE/licenses/Unlicense.txt                          1210  88d9b4eb60579c19
-jre17/NOTICE/licenses/VIM License.txt                       13899  cfc1edda2b488ecd
-jre17/NOTICE/licenses/WTFPL.txt                               483  96f17857f3eb28a7
-jre17/NOTICE/licenses/wxWindows.txt                          2416  5ea1544b51a28bc8
-jre17/NOTICE/packages/alsa-lib/copyright                    26530  dc626520dcd53a22
-jre17/NOTICE/packages/libandroid-shmem/copyright             1529  0dd43abe17196b02
-jre17/NOTICE/packages/libandroid-spawn/LICENSE               1318  511ce23b36ca7dd3
-jre17/NOTICE/packages/libandroid-sysv-semaphore/copyright         1318  847e3e5accf5863b
-jre17/NOTICE/packages/libiconv/copyright                    26530  dc626520dcd53a22
-jre17/NOTICE/packages/libiconv/copyright.1                  35149  3972dc9744f6499f
-jre17/NOTICE/packages/libjpeg-turbo/LICENSE.md               6077  ba6bceebcba0fdd3
-jre17/NOTICE/packages/littlecms/copyright                    1080  6dbd60437f8ef91d
-jre17/NOTICE/packages/openjdk-17/copyright                  18092  8177f97513213526
-jre17/NOTICE/packages/termux-licenses/copyright             35149  3972dc9744f6499f
-jre17/NOTICE/packages/zlib/copyright                         1002  e32ff4e00d9d9493
-jre21/bin-arm64.tar.xz                                    5902036  f3d487bb83a1d970
-jre21/universal.tar.xz                                   33087332  167b4c3e69acb632
-jre21/version                                                 470  87da850e1a7b4573
-jre21/NOTICE/NOTICE.txt                                      5942  63d8e481b0bd1f81
-jre21/NOTICE/README.txt                                       989  6638b19e32da485c
-jre21/NOTICE/SOURCE_OFFER.txt                                1576  e3e2bfa790c61b69
-jre21/NOTICE/jdk-legal/java.base/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.base/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.base/LICENSE                    19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.base/aes.md                      1444  45c6d4da48325edf
-jre21/NOTICE/jdk-legal/java.base/asm.md                      1582  683be15695bd2482
-jre21/NOTICE/jdk-legal/java.base/c-libutl.md                 1556  bef40679922d6fdf
-jre21/NOTICE/jdk-legal/java.base/cldr.md                     9601  19515e14a240e022
-jre21/NOTICE/jdk-legal/java.base/icu.md                     30197  1bf28459c6e0af9f
-jre21/NOTICE/jdk-legal/java.base/public_suffix.md           17783  861de1e4992a7d28
-jre21/NOTICE/jdk-legal/java.base/siphash.md                  8256  5a792b5a74ad2a5f
-jre21/NOTICE/jdk-legal/java.base/unicode.md                  9078  6f72f10d166b2c2e
-jre21/NOTICE/jdk-legal/java.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.compiler/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.compiler/LICENSE                19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.datatransfer/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.datatransfer/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.datatransfer/LICENSE            19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.desktop/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.desktop/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.desktop/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.desktop/colorimaging.md           167  04d61e3e8e71dd45
-jre21/NOTICE/jdk-legal/java.desktop/harfbuzz.md              3629  5ec7cba7f8e7fc3a
-jre21/NOTICE/jdk-legal/java.desktop/mesa3d.md                5732  63f4e6f75caebbcc
-jre21/NOTICE/jdk-legal/java.desktop/pipewire.md              1479  56a8fb1652c70ac2
-jre21/NOTICE/jdk-legal/java.desktop/xwd.md                   1348  1d4ffa93c87f3508
-jre21/NOTICE/jdk-legal/java.instrument/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.instrument/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.instrument/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.logging/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.logging/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.logging/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.management/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.management/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.management.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.management.rmi/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.management.rmi/LICENSE          19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.naming/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.naming/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.naming/LICENSE                  19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.net.http/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.net.http/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.net.http/LICENSE                19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.prefs/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.prefs/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.prefs/LICENSE                   19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.rmi/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.rmi/LICENSE                     19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.scripting/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.scripting/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.scripting/LICENSE               19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.se/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.se/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.se/LICENSE                      19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.security.jgss/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.security.jgss/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.security.jgss/LICENSE           19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.security.sasl/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.security.sasl/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.security.sasl/LICENSE           19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.smartcardio/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.smartcardio/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.smartcardio/LICENSE             19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.smartcardio/pcsclite.md          2155  b39ce363c281ed36
-jre21/NOTICE/jdk-legal/java.sql/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.sql/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.sql/LICENSE                     19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.sql.rowset/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.sql.rowset/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.transaction.xa/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.transaction.xa/LICENSE          19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.xml/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.xml/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.xml/LICENSE                     19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.xml/bcel.md                     11196  cd578186ad93de46
-jre21/NOTICE/jdk-legal/java.xml/dom.md                       3761  6686e8877667584a
-jre21/NOTICE/jdk-legal/java.xml/jcup.md                      1448  8d5dcfdf50455a3c
-jre21/NOTICE/jdk-legal/java.xml/xalan.md                    13477  c27eb875da4be683
-jre21/NOTICE/jdk-legal/java.xml/xerces.md                   11848  4a6bf6b367193ee6
-jre21/NOTICE/jdk-legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/java.xml.crypto/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/java.xml.crypto/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/java.xml.crypto/santuario.md         11505  d08690d25f660f14
-jre21/NOTICE/jdk-legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.accessibility/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.accessibility/LICENSE            19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.attach/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.attach/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.attach/LICENSE                   19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.charsets/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.charsets/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.charsets/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.compiler/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.compiler/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/LICENSE          19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md         4095  1f36ff1342a58114
-jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11wrapper.md         2131  371974b1fca3744a
-jre21/NOTICE/jdk-legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.crypto.ec/LICENSE                19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.dynalink/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.dynalink/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.dynalink/dynalink.md              1502  17312591cabee3ef
-jre21/NOTICE/jdk-legal/jdk.editpad/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.editpad/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.editpad/LICENSE                  19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.hotspot.agent/LICENSE            19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.httpserver/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.httpserver/LICENSE               19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.incubator.vector/LICENSE         19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.internal.ed/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.internal.ed/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.internal.jvmstat/LICENSE         19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.internal.le/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.internal.le/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.internal.le/jline.md              1579  a6fb63a226b77b03
-jre21/NOTICE/jdk-legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.internal.opt/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.internal.opt/LICENSE             19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.internal.opt/jopt-simple.md         1122  99bc67f93cf57d6d
-jre21/NOTICE/jdk-legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.internal.vm.ci/LICENSE           19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler/LICENSE        19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/LICENSE        19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jartool/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jartool/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jartool/LICENSE                  19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.javadoc/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.javadoc/LICENSE                  19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.javadoc/jquery.md                 1157  b68f454c2bd58959
-jre21/NOTICE/jdk-legal/jdk.javadoc/jqueryUI.md               1871  7854d2d568992ae2
-jre21/NOTICE/jdk-legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jcmd/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jcmd/LICENSE                     19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jconsole/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jconsole/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jdeps/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jdeps/LICENSE                    19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jdi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jdi/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jdi/LICENSE                      19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jdwp.agent/LICENSE               19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jfr/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jfr/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jfr/LICENSE                      19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jlink/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jlink/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jlink/LICENSE                    19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jpackage/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jpackage/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jshell/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jshell/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jshell/LICENSE                   19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jsobject/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jsobject/LICENSE                 19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.jstatd/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.jstatd/LICENSE                   19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.localedata/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.localedata/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.localedata/LICENSE               19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.localedata/cldr.md                9601  19515e14a240e022
-jre21/NOTICE/jdk-legal/jdk.localedata/thaidict.md            1346  c326144a2351c960
-jre21/NOTICE/jdk-legal/jdk.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.management/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.management/LICENSE               19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.management.agent/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.management.agent/LICENSE         19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.management.jfr/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.management.jfr/LICENSE           19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.naming.dns/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.naming.dns/LICENSE               19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.naming.rmi/LICENSE               19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.net/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.net/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.net/LICENSE                      19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.nio.mapmode/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.random/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.random/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.random/LICENSE                   19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.sctp/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.sctp/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.sctp/LICENSE                     19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.security.auth/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.security.auth/LICENSE            19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.security.jgss/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.security.jgss/LICENSE            19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.unsupported/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.unsupported/LICENSE              19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.unsupported.desktop/LICENSE        19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.xml.dom/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.xml.dom/LICENSE                  19274  4b9abebc4338048a
-jre21/NOTICE/jdk-legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre21/NOTICE/jdk-legal/jdk.zipfs/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre21/NOTICE/jdk-legal/jdk.zipfs/LICENSE                    19274  4b9abebc4338048a
-jre21/NOTICE/licenses/AGPL-3.0-only.txt                     34523  0d96a4ff68ad6d4b
-jre21/NOTICE/licenses/AGPL-3.0-or-later.txt                 34523  0d96a4ff68ad6d4b
-jre21/NOTICE/licenses/AGPL-3.0.txt                          34523  0d96a4ff68ad6d4b
-jre21/NOTICE/licenses/Apache-2.0.txt                        11358  cfc7749b96f63bd3
-jre21/NOTICE/licenses/Artistic-License-2.0.txt               6108  b06b8a07ae5c40f5
-jre21/NOTICE/licenses/BSL-1.0.txt                            1280  7f8a88ce52c07996
-jre21/NOTICE/licenses/CC0-1.0.txt                            7048  a2010f343487d3f7
-jre21/NOTICE/licenses/CeCILL-2.1.txt                        21777  506e5ae49c2931f7
-jre21/NOTICE/licenses/EPL-1.0.txt                           11320  0435570a20c5b246
-jre21/NOTICE/licenses/EPL-2.0.txt                           14200  2efc4c34579dc45f
-jre21/NOTICE/licenses/GPL-2.0-only.txt                      18092  8177f97513213526
-jre21/NOTICE/licenses/GPL-2.0-or-later.txt                  18092  8177f97513213526
-jre21/NOTICE/licenses/GPL-2.0.txt                           18092  8177f97513213526
-jre21/NOTICE/licenses/GPL-3.0-only.txt                      35149  3972dc9744f6499f
-jre21/NOTICE/licenses/GPL-3.0-or-later.txt                  35149  3972dc9744f6499f
-jre21/NOTICE/licenses/GPL-3.0.txt                           35149  3972dc9744f6499f
-jre21/NOTICE/licenses/ISC.txt                                 731  45fefea443e839d0
-jre21/NOTICE/licenses/ImageMagick.txt                       12443  5b47db9327547434
-jre21/NOTICE/licenses/LGPL-2.0-only.txt                     25383  b7993225104d90dd
-jre21/NOTICE/licenses/LGPL-2.0-or-later.txt                 25383  b7993225104d90dd
-jre21/NOTICE/licenses/LGPL-2.0.txt                          25383  b7993225104d90dd
-jre21/NOTICE/licenses/LGPL-2.1-only.txt                     26530  dc626520dcd53a22
-jre21/NOTICE/licenses/LGPL-2.1-or-later.txt                 26530  dc626520dcd53a22
-jre21/NOTICE/licenses/LGPL-2.1.txt                          26530  dc626520dcd53a22
-jre21/NOTICE/licenses/LGPL-3.0-only.txt                      7652  e3a994d82e644b03
-jre21/NOTICE/licenses/LGPL-3.0-or-later.txt                  7652  e3a994d82e644b03
-jre21/NOTICE/licenses/LGPL-3.0.txt                           7652  e3a994d82e644b03
-jre21/NOTICE/licenses/MPL-2.0.txt                           15192  9bc20a15c6140769
-jre21/NOTICE/licenses/NCSA.txt                               1662  aecb9504bcc76b4f
-jre21/NOTICE/licenses/Nethack.txt                            4875  93a3ae2cb8dee482
-jre21/NOTICE/licenses/OpenLDAP.txt                           2214  310fe25c858a9515
-jre21/NOTICE/licenses/PHP-3.0.txt                            3194  e4f797cb2c221a20
-jre21/NOTICE/licenses/Public Domain.txt                      7048  a2010f343487d3f7
-jre21/NOTICE/licenses/Unlicense.txt                          1210  88d9b4eb60579c19
-jre21/NOTICE/licenses/VIM License.txt                       13899  cfc1edda2b488ecd
-jre21/NOTICE/licenses/WTFPL.txt                               483  96f17857f3eb28a7
-jre21/NOTICE/licenses/wxWindows.txt                          2416  5ea1544b51a28bc8
-jre21/NOTICE/packages/alsa-lib/copyright                    26530  dc626520dcd53a22
-jre21/NOTICE/packages/libandroid-shmem/copyright             1529  0dd43abe17196b02
-jre21/NOTICE/packages/libandroid-spawn/LICENSE               1318  511ce23b36ca7dd3
-jre21/NOTICE/packages/libandroid-sysv-semaphore/copyright         1318  847e3e5accf5863b
-jre21/NOTICE/packages/libiconv/copyright                    26530  dc626520dcd53a22
-jre21/NOTICE/packages/libiconv/copyright.1                  35149  3972dc9744f6499f
-jre21/NOTICE/packages/libjpeg-turbo/LICENSE.md               6077  ba6bceebcba0fdd3
-jre21/NOTICE/packages/littlecms/copyright                    1080  6dbd60437f8ef91d
-jre21/NOTICE/packages/openjdk-21/copyright                  18092  8177f97513213526
-jre21/NOTICE/packages/termux-licenses/copyright             35149  3972dc9744f6499f
-jre21/NOTICE/packages/zlib/copyright                         1002  e32ff4e00d9d9493
-jre25/bin-arm64.tar.xz                                    6417916  1c64a3b473d61ac5
-jre25/universal.tar.xz                                   38491816  2c72818d43c883e2
-jre25/version                                                 468  d878db4e88d8a229
-jre25/NOTICE/NOTICE.txt                                      5938  3ee8892aa1c314f7
-jre25/NOTICE/README.txt                                       989  246698f8d76b3836
-jre25/NOTICE/SOURCE_OFFER.txt                                1574  947b5e117bc59031
-jre25/NOTICE/jdk-legal/java.base/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.base/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.base/LICENSE                    19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.base/aes.md                      1444  45c6d4da48325edf
-jre25/NOTICE/jdk-legal/java.base/c-libutl.md                 1556  bef40679922d6fdf
-jre25/NOTICE/jdk-legal/java.base/cldr.md                     8790  472e341c36efc113
-jre25/NOTICE/jdk-legal/java.base/icu.md                      4147  be23ad20a8231d22
-jre25/NOTICE/jdk-legal/java.base/public_suffix.md           17783  861de1e4992a7d28
-jre25/NOTICE/jdk-legal/java.base/siphash.md                  8256  5a792b5a74ad2a5f
-jre25/NOTICE/jdk-legal/java.base/unicode.md                 15098  5194d6760f2e7ecc
-jre25/NOTICE/jdk-legal/java.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.compiler/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.compiler/LICENSE                19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.datatransfer/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.datatransfer/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.datatransfer/LICENSE            19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.desktop/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.desktop/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.desktop/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.desktop/colorimaging.md           167  04d61e3e8e71dd45
-jre25/NOTICE/jdk-legal/java.desktop/harfbuzz.md              3629  5ec7cba7f8e7fc3a
-jre25/NOTICE/jdk-legal/java.desktop/mesa3d.md                5732  63f4e6f75caebbcc
-jre25/NOTICE/jdk-legal/java.desktop/pipewire.md              1479  56a8fb1652c70ac2
-jre25/NOTICE/jdk-legal/java.desktop/xwd.md                   1348  1d4ffa93c87f3508
-jre25/NOTICE/jdk-legal/java.instrument/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.instrument/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.instrument/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.logging/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.logging/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.logging/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.management/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.management/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.management.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.management.rmi/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.management.rmi/LICENSE          19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.naming/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.naming/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.naming/LICENSE                  19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.net.http/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.net.http/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.net.http/LICENSE                19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.prefs/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.prefs/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.prefs/LICENSE                   19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.rmi/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.rmi/LICENSE                     19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.scripting/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.scripting/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.scripting/LICENSE               19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.se/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.se/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.se/LICENSE                      19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.security.jgss/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.security.jgss/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.security.jgss/LICENSE           19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.security.sasl/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.security.sasl/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.security.sasl/LICENSE           19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.smartcardio/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.smartcardio/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.smartcardio/LICENSE             19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.smartcardio/pcsclite.md          2155  3ad4c89f51e0c791
-jre25/NOTICE/jdk-legal/java.sql/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.sql/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.sql/LICENSE                     19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.sql.rowset/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.sql.rowset/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.transaction.xa/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.transaction.xa/LICENSE          19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.xml/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.xml/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.xml/LICENSE                     19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.xml/bcel.md                     11196  cd578186ad93de46
-jre25/NOTICE/jdk-legal/java.xml/dom.md                       3761  6686e8877667584a
-jre25/NOTICE/jdk-legal/java.xml/jcup.md                      1448  8d5dcfdf50455a3c
-jre25/NOTICE/jdk-legal/java.xml/schema10part1.md             2138  b220f891e5bfa3aa
-jre25/NOTICE/jdk-legal/java.xml/schema10part2.md             2136  2350e35e91866d5e
-jre25/NOTICE/jdk-legal/java.xml/xalan.md                    13477  02bd013fc3f438db
-jre25/NOTICE/jdk-legal/java.xml/xerces.md                   11848  4a6bf6b367193ee6
-jre25/NOTICE/jdk-legal/java.xml/xhtml10.md                   2634  9a5cde47073ca80c
-jre25/NOTICE/jdk-legal/java.xml/xhtml10schema.md             7521  7bc51d884aaae6ef
-jre25/NOTICE/jdk-legal/java.xml/xhtml11.md                   3258  4f99a390896f0f55
-jre25/NOTICE/jdk-legal/java.xml/xhtml11schema.md             3224  8cd69b1392e28653
-jre25/NOTICE/jdk-legal/java.xml/xmlspec.md                   2719  afec263bf5dc6769
-jre25/NOTICE/jdk-legal/java.xml/xmlxsd.md                    1951  498a5fec63509a8f
-jre25/NOTICE/jdk-legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/java.xml.crypto/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/java.xml.crypto/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/java.xml.crypto/santuario.md         11505  d08690d25f660f14
-jre25/NOTICE/jdk-legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.accessibility/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.accessibility/LICENSE            19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.attach/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.attach/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.attach/LICENSE                   19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.charsets/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.charsets/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.charsets/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.compiler/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.compiler/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/LICENSE          19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md         4095  1f36ff1342a58114
-jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11wrapper.md         2131  371974b1fca3744a
-jre25/NOTICE/jdk-legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.crypto.ec/LICENSE                19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.dynalink/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.dynalink/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.dynalink/dynalink.md              1502  17312591cabee3ef
-jre25/NOTICE/jdk-legal/jdk.editpad/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.editpad/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.editpad/LICENSE                  19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.graal.compiler/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.graal.compiler/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.graal.compiler/LICENSE           19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.graal.compiler.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.graal.compiler.management/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.graal.compiler.management/LICENSE        19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.hotspot.agent/LICENSE            19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.httpserver/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.httpserver/LICENSE               19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.incubator.vector/LICENSE         19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.incubator.vector/sleef.md        20491  ee27da65f6a1025f
-jre25/NOTICE/jdk-legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.internal.ed/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.internal.ed/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.internal.jvmstat/LICENSE         19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.internal.le/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.internal.le/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.internal.le/jline.md              1579  a6fb63a226b77b03
-jre25/NOTICE/jdk-legal/jdk.internal.md/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.internal.md/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.internal.md/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.internal.md/commonmark.md         1354  23a6f08218b13b6d
-jre25/NOTICE/jdk-legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.internal.opt/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.internal.opt/LICENSE             19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.internal.opt/jopt-simple.md         1122  99bc67f93cf57d6d
-jre25/NOTICE/jdk-legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.internal.vm.ci/LICENSE           19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jartool/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jartool/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jartool/LICENSE                  19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.javadoc/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.javadoc/LICENSE                  19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.javadoc/dejavufonts.md            8841  bcec55913c89822a
-jre25/NOTICE/jdk-legal/jdk.javadoc/highlightjs.md            1573  3e153ecf41179d31
-jre25/NOTICE/jdk-legal/jdk.javadoc/jquery.md                 1157  b68f454c2bd58959
-jre25/NOTICE/jdk-legal/jdk.javadoc/jqueryUI.md               1871  7854d2d568992ae2
-jre25/NOTICE/jdk-legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jcmd/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jcmd/LICENSE                     19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jconsole/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jconsole/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jdeps/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jdeps/LICENSE                    19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jdi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jdi/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jdi/LICENSE                      19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jdwp.agent/LICENSE               19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jfr/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jfr/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jfr/LICENSE                      19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jlink/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jlink/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jlink/LICENSE                    19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jpackage/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jpackage/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jshell/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jshell/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jshell/LICENSE                   19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jsobject/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jsobject/LICENSE                 19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.jstatd/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.jstatd/LICENSE                   19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.localedata/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.localedata/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.localedata/LICENSE               19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.localedata/cldr.md                8790  472e341c36efc113
-jre25/NOTICE/jdk-legal/jdk.localedata/thaidict.md            1346  c326144a2351c960
-jre25/NOTICE/jdk-legal/jdk.management/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.management/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.management/LICENSE               19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.management.agent/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.management.agent/LICENSE         19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.management.jfr/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.management.jfr/LICENSE           19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.naming.dns/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.naming.dns/LICENSE               19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.naming.rmi/LICENSE               19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.net/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.net/ASSEMBLY_EXCEPTION            1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.net/LICENSE                      19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.nio.mapmode/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.sctp/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.sctp/ASSEMBLY_EXCEPTION           1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.sctp/LICENSE                     19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.security.auth/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.security.auth/LICENSE            19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.security.jgss/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.security.jgss/LICENSE            19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.unsupported/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.unsupported/LICENSE              19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.unsupported.desktop/LICENSE        19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.xml.dom/ASSEMBLY_EXCEPTION         1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.xml.dom/LICENSE                  19274  4b9abebc4338048a
-jre25/NOTICE/jdk-legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO         2114  a69bce275ba7a357
-jre25/NOTICE/jdk-legal/jdk.zipfs/ASSEMBLY_EXCEPTION          1514  75292f03bf23d3db
-jre25/NOTICE/jdk-legal/jdk.zipfs/LICENSE                    19274  4b9abebc4338048a
-jre25/NOTICE/licenses/AGPL-3.0-only.txt                     34523  0d96a4ff68ad6d4b
-jre25/NOTICE/licenses/AGPL-3.0-or-later.txt                 34523  0d96a4ff68ad6d4b
-jre25/NOTICE/licenses/AGPL-3.0.txt                          34523  0d96a4ff68ad6d4b
-jre25/NOTICE/licenses/Apache-2.0.txt                        11358  cfc7749b96f63bd3
-jre25/NOTICE/licenses/Artistic-License-2.0.txt               6108  b06b8a07ae5c40f5
-jre25/NOTICE/licenses/BSL-1.0.txt                            1280  7f8a88ce52c07996
-jre25/NOTICE/licenses/CC0-1.0.txt                            7048  a2010f343487d3f7
-jre25/NOTICE/licenses/CeCILL-2.1.txt                        21777  506e5ae49c2931f7
-jre25/NOTICE/licenses/EPL-1.0.txt                           11320  0435570a20c5b246
-jre25/NOTICE/licenses/EPL-2.0.txt                           14200  2efc4c34579dc45f
-jre25/NOTICE/licenses/GPL-2.0-only.txt                      18092  8177f97513213526
-jre25/NOTICE/licenses/GPL-2.0-or-later.txt                  18092  8177f97513213526
-jre25/NOTICE/licenses/GPL-2.0.txt                           18092  8177f97513213526
-jre25/NOTICE/licenses/GPL-3.0-only.txt                      35149  3972dc9744f6499f
-jre25/NOTICE/licenses/GPL-3.0-or-later.txt                  35149  3972dc9744f6499f
-jre25/NOTICE/licenses/GPL-3.0.txt                           35149  3972dc9744f6499f
-jre25/NOTICE/licenses/ISC.txt                                 731  45fefea443e839d0
-jre25/NOTICE/licenses/ImageMagick.txt                       12443  5b47db9327547434
-jre25/NOTICE/licenses/LGPL-2.0-only.txt                     25383  b7993225104d90dd
-jre25/NOTICE/licenses/LGPL-2.0-or-later.txt                 25383  b7993225104d90dd
-jre25/NOTICE/licenses/LGPL-2.0.txt                          25383  b7993225104d90dd
-jre25/NOTICE/licenses/LGPL-2.1-only.txt                     26530  dc626520dcd53a22
-jre25/NOTICE/licenses/LGPL-2.1-or-later.txt                 26530  dc626520dcd53a22
-jre25/NOTICE/licenses/LGPL-2.1.txt                          26530  dc626520dcd53a22
-jre25/NOTICE/licenses/LGPL-3.0-only.txt                      7652  e3a994d82e644b03
-jre25/NOTICE/licenses/LGPL-3.0-or-later.txt                  7652  e3a994d82e644b03
-jre25/NOTICE/licenses/LGPL-3.0.txt                           7652  e3a994d82e644b03
-jre25/NOTICE/licenses/MPL-2.0.txt                           15192  9bc20a15c6140769
-jre25/NOTICE/licenses/NCSA.txt                               1662  aecb9504bcc76b4f
-jre25/NOTICE/licenses/Nethack.txt                            4875  93a3ae2cb8dee482
-jre25/NOTICE/licenses/OpenLDAP.txt                           2214  310fe25c858a9515
-jre25/NOTICE/licenses/PHP-3.0.txt                            3194  e4f797cb2c221a20
-jre25/NOTICE/licenses/Public Domain.txt                      7048  a2010f343487d3f7
-jre25/NOTICE/licenses/Unlicense.txt                          1210  88d9b4eb60579c19
-jre25/NOTICE/licenses/VIM License.txt                       13899  cfc1edda2b488ecd
-jre25/NOTICE/licenses/WTFPL.txt                               483  96f17857f3eb28a7
-jre25/NOTICE/licenses/wxWindows.txt                          2416  5ea1544b51a28bc8
-jre25/NOTICE/packages/alsa-lib/copyright                    26530  dc626520dcd53a22
-jre25/NOTICE/packages/libandroid-shmem/copyright             1529  0dd43abe17196b02
-jre25/NOTICE/packages/libandroid-spawn/LICENSE               1318  511ce23b36ca7dd3
-jre25/NOTICE/packages/libandroid-sysv-semaphore/copyright         1318  847e3e5accf5863b
-jre25/NOTICE/packages/libiconv/copyright                    26530  dc626520dcd53a22
-jre25/NOTICE/packages/libiconv/copyright.1                  35149  3972dc9744f6499f
-jre25/NOTICE/packages/libjpeg-turbo/LICENSE.md               6077  ba6bceebcba0fdd3
-jre25/NOTICE/packages/littlecms/copyright                    1080  6dbd60437f8ef91d
-jre25/NOTICE/packages/openjdk-25/copyright                  18092  8177f97513213526
-jre25/NOTICE/packages/termux-licenses/copyright             35149  3972dc9744f6499f
-jre25/NOTICE/packages/zlib/copyright                         1002  e32ff4e00d9d9493
-------------------------------------------------------------------------------
-合计 885 个文件 / 121.86 MiB (127780933 B)
-
+SXCX-C 安卓 JRE 上传清单(生成时间 2026-09-21T12:55:23Z)
+================================================================================================
+怎么用:把本文件所在的整个目录(D:\SilentStudio\_termux_jre\out)的**内容**放到托管仓库的根;
+        本地相对路径 == 远端相对路径(index.json 里的 url 就是这么拼的)。
+  * 标记:NEW=本次新增 / CHG=内容变了 / SAME=没变(增量上传只需要传 NEW+CHG)
+  * 校验:每行 sha256 的前 16 位;完整 sha256+sha1 在 index.json 里(逐文件都有)。
+  * url 前缀:https://raw.githubusercontent.com/Silent-Studio-CN/index/main/SXCL/jre
+    备用前缀:https://gh-proxy.com/https://raw.githubusercontent.com/Silent-Studio-CN/index/main/SXCL/jre
+------------------------------------------------------------------------------------------------
+相对路径	字节	sha256[0:16]	状态
+index.json	911950	11b19fdc0472b01a	CHG
+jre17/NOTICE/NOTICE.txt	5942	bfb9faeb92c2b4c8	SAME
+jre17/NOTICE/README.txt	989	d287c3fecc8b9cce	SAME
+jre17/NOTICE/SOURCE_OFFER.txt	1576	f58ebce00f080693	SAME
+jre17/NOTICE/jdk-legal/java.base/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.base/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.base/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.base/aes.md	1444	45c6d4da48325edf	SAME
+jre17/NOTICE/jdk-legal/java.base/asm.md	1584	1ff912740e84e024	SAME
+jre17/NOTICE/jdk-legal/java.base/c-libutl.md	1556	bef40679922d6fdf	SAME
+jre17/NOTICE/jdk-legal/java.base/cldr.md	9130	f2bd33ded550a05d	SAME
+jre17/NOTICE/jdk-legal/java.base/icu.md	11086	af0057e855390608	SAME
+jre17/NOTICE/jdk-legal/java.base/public_suffix.md	17785	e7705b408e894e91	SAME
+jre17/NOTICE/jdk-legal/java.base/siphash.md	8256	5a792b5a74ad2a5f	SAME
+jre17/NOTICE/jdk-legal/java.base/unicode.md	2384	5e4e6623a21a63f9	SAME
+jre17/NOTICE/jdk-legal/java.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.compiler/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.datatransfer/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.datatransfer/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.datatransfer/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.desktop/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.desktop/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.desktop/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.desktop/colorimaging.md	167	04d61e3e8e71dd45	SAME
+jre17/NOTICE/jdk-legal/java.desktop/harfbuzz.md	3629	5ec7cba7f8e7fc3a	SAME
+jre17/NOTICE/jdk-legal/java.desktop/mesa3d.md	5732	63f4e6f75caebbcc	SAME
+jre17/NOTICE/jdk-legal/java.desktop/pipewire.md	1479	56a8fb1652c70ac2	SAME
+jre17/NOTICE/jdk-legal/java.desktop/xwd.md	1348	1d4ffa93c87f3508	SAME
+jre17/NOTICE/jdk-legal/java.instrument/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.instrument/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.instrument/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.logging/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.logging/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.logging/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.management.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.management.rmi/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.management.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.management/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.naming/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.naming/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.naming/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.net.http/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.net.http/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.net.http/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.prefs/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.prefs/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.prefs/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.rmi/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.scripting/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.scripting/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.scripting/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.se/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.se/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.se/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.security.jgss/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.security.jgss/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.security.jgss/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.security.sasl/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.security.sasl/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.security.sasl/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.smartcardio/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.smartcardio/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.smartcardio/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.smartcardio/pcsclite.md	2155	b39ce363c281ed36	SAME
+jre17/NOTICE/jdk-legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.sql.rowset/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.sql.rowset/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.sql/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.sql/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.sql/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.transaction.xa/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.transaction.xa/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.xml.crypto/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.xml.crypto/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.xml.crypto/santuario.md	11505	d08690d25f660f14	SAME
+jre17/NOTICE/jdk-legal/java.xml/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/java.xml/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/java.xml/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/java.xml/bcel.md	11196	cd578186ad93de46	SAME
+jre17/NOTICE/jdk-legal/java.xml/dom.md	3761	6686e8877667584a	SAME
+jre17/NOTICE/jdk-legal/java.xml/jcup.md	1448	8d5dcfdf50455a3c	SAME
+jre17/NOTICE/jdk-legal/java.xml/xalan.md	13494	ea67226be5cfe19c	SAME
+jre17/NOTICE/jdk-legal/java.xml/xerces.md	11852	472224f99de833f4	SAME
+jre17/NOTICE/jdk-legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.accessibility/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.accessibility/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.attach/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.attach/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.attach/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.charsets/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.charsets/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.charsets/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.compiler/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md	4095	1f36ff1342a58114	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11wrapper.md	2131	371974b1fca3744a	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.crypto.ec/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.dynalink/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.dynalink/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.dynalink/dynalink.md	1502	17312591cabee3ef	SAME
+jre17/NOTICE/jdk-legal/jdk.editpad/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.editpad/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.editpad/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.hotspot.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.httpserver/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.httpserver/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.incubator.foreign/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.incubator.foreign/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.incubator.foreign/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.incubator.vector/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.ed/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.ed/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.jvmstat/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.le/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.le/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.le/jline.md	1579	a6fb63a226b77b03	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.opt/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.opt/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.opt/jopt-simple.md	1122	99bc67f93cf57d6d	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.ci/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.internal.vm.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jartool/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jartool/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jartool/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.javadoc/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.javadoc/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.javadoc/jquery.md	1157	b68f454c2bd58959	SAME
+jre17/NOTICE/jdk-legal/jdk.javadoc/jqueryUI.md	1871	7854d2d568992ae2	SAME
+jre17/NOTICE/jdk-legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jcmd/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jcmd/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jconsole/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jconsole/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jdeps/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jdeps/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jdi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jdi/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jdi/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jdwp.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jfr/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jfr/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jfr/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jlink/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jlink/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jlink/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jpackage/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jpackage/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jshell/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jshell/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jshell/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jsobject/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jsobject/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.jstatd/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.jstatd/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.localedata/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.localedata/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.localedata/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.localedata/cldr.md	9130	f2bd33ded550a05d	SAME
+jre17/NOTICE/jdk-legal/jdk.localedata/thaidict.md	1346	c326144a2351c960	SAME
+jre17/NOTICE/jdk-legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.management.agent/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.management.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.management.jfr/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.management.jfr/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.management/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.naming.dns/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.naming.dns/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.naming.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.net/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.net/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.net/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.nio.mapmode/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.random/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.random/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.random/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.sctp/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.sctp/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.sctp/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.security.auth/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.security.auth/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.security.jgss/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.security.jgss/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.unsupported.desktop/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.unsupported/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.unsupported/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.xml.dom/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.xml.dom/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/jdk-legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre17/NOTICE/jdk-legal/jdk.zipfs/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre17/NOTICE/jdk-legal/jdk.zipfs/LICENSE	19274	4b9abebc4338048a	SAME
+jre17/NOTICE/licenses/AGPL-3.0-only.txt	34523	0d96a4ff68ad6d4b	SAME
+jre17/NOTICE/licenses/AGPL-3.0-or-later.txt	34523	0d96a4ff68ad6d4b	SAME
+jre17/NOTICE/licenses/AGPL-3.0.txt	34523	0d96a4ff68ad6d4b	SAME
+jre17/NOTICE/licenses/Apache-2.0.txt	11358	cfc7749b96f63bd3	SAME
+jre17/NOTICE/licenses/Artistic-License-2.0.txt	6108	b06b8a07ae5c40f5	SAME
+jre17/NOTICE/licenses/BSL-1.0.txt	1280	7f8a88ce52c07996	SAME
+jre17/NOTICE/licenses/CC0-1.0.txt	7048	a2010f343487d3f7	SAME
+jre17/NOTICE/licenses/CeCILL-2.1.txt	21777	506e5ae49c2931f7	SAME
+jre17/NOTICE/licenses/EPL-1.0.txt	11320	0435570a20c5b246	SAME
+jre17/NOTICE/licenses/EPL-2.0.txt	14200	2efc4c34579dc45f	SAME
+jre17/NOTICE/licenses/GPL-2.0-only.txt	18092	8177f97513213526	SAME
+jre17/NOTICE/licenses/GPL-2.0-or-later.txt	18092	8177f97513213526	SAME
+jre17/NOTICE/licenses/GPL-2.0.txt	18092	8177f97513213526	SAME
+jre17/NOTICE/licenses/GPL-3.0-only.txt	35149	3972dc9744f6499f	SAME
+jre17/NOTICE/licenses/GPL-3.0-or-later.txt	35149	3972dc9744f6499f	SAME
+jre17/NOTICE/licenses/GPL-3.0.txt	35149	3972dc9744f6499f	SAME
+jre17/NOTICE/licenses/ISC.txt	731	45fefea443e839d0	SAME
+jre17/NOTICE/licenses/ImageMagick.txt	12443	5b47db9327547434	SAME
+jre17/NOTICE/licenses/LGPL-2.0-only.txt	25383	b7993225104d90dd	SAME
+jre17/NOTICE/licenses/LGPL-2.0-or-later.txt	25383	b7993225104d90dd	SAME
+jre17/NOTICE/licenses/LGPL-2.0.txt	25383	b7993225104d90dd	SAME
+jre17/NOTICE/licenses/LGPL-2.1-only.txt	26530	dc626520dcd53a22	SAME
+jre17/NOTICE/licenses/LGPL-2.1-or-later.txt	26530	dc626520dcd53a22	SAME
+jre17/NOTICE/licenses/LGPL-2.1.txt	26530	dc626520dcd53a22	SAME
+jre17/NOTICE/licenses/LGPL-3.0-only.txt	7652	e3a994d82e644b03	SAME
+jre17/NOTICE/licenses/LGPL-3.0-or-later.txt	7652	e3a994d82e644b03	SAME
+jre17/NOTICE/licenses/LGPL-3.0.txt	7652	e3a994d82e644b03	SAME
+jre17/NOTICE/licenses/MPL-2.0.txt	15192	9bc20a15c6140769	SAME
+jre17/NOTICE/licenses/NCSA.txt	1662	aecb9504bcc76b4f	SAME
+jre17/NOTICE/licenses/Nethack.txt	4875	93a3ae2cb8dee482	SAME
+jre17/NOTICE/licenses/OpenLDAP.txt	2214	310fe25c858a9515	SAME
+jre17/NOTICE/licenses/PHP-3.0.txt	3194	e4f797cb2c221a20	SAME
+jre17/NOTICE/licenses/Public Domain.txt	7048	a2010f343487d3f7	SAME
+jre17/NOTICE/licenses/Unlicense.txt	1210	88d9b4eb60579c19	SAME
+jre17/NOTICE/licenses/VIM License.txt	13899	cfc1edda2b488ecd	SAME
+jre17/NOTICE/licenses/WTFPL.txt	483	96f17857f3eb28a7	SAME
+jre17/NOTICE/licenses/wxWindows.txt	2416	5ea1544b51a28bc8	SAME
+jre17/NOTICE/packages/alsa-lib/copyright	26530	dc626520dcd53a22	SAME
+jre17/NOTICE/packages/libandroid-shmem/copyright	1529	0dd43abe17196b02	SAME
+jre17/NOTICE/packages/libandroid-spawn/LICENSE	1318	511ce23b36ca7dd3	SAME
+jre17/NOTICE/packages/libandroid-sysv-semaphore/copyright	1318	847e3e5accf5863b	SAME
+jre17/NOTICE/packages/libiconv/copyright	26530	dc626520dcd53a22	SAME
+jre17/NOTICE/packages/libiconv/copyright.1	35149	3972dc9744f6499f	SAME
+jre17/NOTICE/packages/libjpeg-turbo/LICENSE.md	6077	ba6bceebcba0fdd3	SAME
+jre17/NOTICE/packages/littlecms/copyright	1080	6dbd60437f8ef91d	SAME
+jre17/NOTICE/packages/openjdk-17/copyright	18092	8177f97513213526	SAME
+jre17/NOTICE/packages/termux-licenses/copyright	35149	3972dc9744f6499f	SAME
+jre17/NOTICE/packages/zlib/copyright	1002	e32ff4e00d9d9493	SAME
+jre17/bin-arm64.tar.xz	4630460	cd6a527c2373c7a4	SAME
+jre17/universal.tar.xz	31132644	aa11db5ff7f38101	SAME
+jre17/version	470	06f583473aad44ca	SAME
+jre21/NOTICE/NOTICE.txt	5942	63d8e481b0bd1f81	SAME
+jre21/NOTICE/README.txt	989	6638b19e32da485c	SAME
+jre21/NOTICE/SOURCE_OFFER.txt	1576	e3e2bfa790c61b69	SAME
+jre21/NOTICE/jdk-legal/java.base/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.base/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.base/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.base/aes.md	1444	45c6d4da48325edf	SAME
+jre21/NOTICE/jdk-legal/java.base/asm.md	1582	683be15695bd2482	SAME
+jre21/NOTICE/jdk-legal/java.base/c-libutl.md	1556	bef40679922d6fdf	SAME
+jre21/NOTICE/jdk-legal/java.base/cldr.md	9601	19515e14a240e022	SAME
+jre21/NOTICE/jdk-legal/java.base/icu.md	30197	1bf28459c6e0af9f	SAME
+jre21/NOTICE/jdk-legal/java.base/public_suffix.md	17783	861de1e4992a7d28	SAME
+jre21/NOTICE/jdk-legal/java.base/siphash.md	8256	5a792b5a74ad2a5f	SAME
+jre21/NOTICE/jdk-legal/java.base/unicode.md	9078	6f72f10d166b2c2e	SAME
+jre21/NOTICE/jdk-legal/java.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.compiler/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.datatransfer/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.datatransfer/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.datatransfer/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.desktop/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.desktop/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.desktop/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.desktop/colorimaging.md	167	04d61e3e8e71dd45	SAME
+jre21/NOTICE/jdk-legal/java.desktop/harfbuzz.md	3629	5ec7cba7f8e7fc3a	SAME
+jre21/NOTICE/jdk-legal/java.desktop/mesa3d.md	5732	63f4e6f75caebbcc	SAME
+jre21/NOTICE/jdk-legal/java.desktop/pipewire.md	1479	56a8fb1652c70ac2	SAME
+jre21/NOTICE/jdk-legal/java.desktop/xwd.md	1348	1d4ffa93c87f3508	SAME
+jre21/NOTICE/jdk-legal/java.instrument/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.instrument/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.instrument/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.logging/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.logging/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.logging/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.management.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.management.rmi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.management.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.management/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.naming/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.naming/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.naming/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.net.http/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.net.http/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.net.http/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.prefs/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.prefs/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.prefs/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.rmi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.scripting/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.scripting/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.scripting/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.se/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.se/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.se/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.security.jgss/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.security.jgss/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.security.jgss/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.security.sasl/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.security.sasl/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.security.sasl/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.smartcardio/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.smartcardio/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.smartcardio/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.smartcardio/pcsclite.md	2155	b39ce363c281ed36	SAME
+jre21/NOTICE/jdk-legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.sql.rowset/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.sql.rowset/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.sql/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.sql/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.sql/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.transaction.xa/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.transaction.xa/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.xml.crypto/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.xml.crypto/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.xml.crypto/santuario.md	11505	d08690d25f660f14	SAME
+jre21/NOTICE/jdk-legal/java.xml/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/java.xml/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/java.xml/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/java.xml/bcel.md	11196	cd578186ad93de46	SAME
+jre21/NOTICE/jdk-legal/java.xml/dom.md	3761	6686e8877667584a	SAME
+jre21/NOTICE/jdk-legal/java.xml/jcup.md	1448	8d5dcfdf50455a3c	SAME
+jre21/NOTICE/jdk-legal/java.xml/xalan.md	13477	c27eb875da4be683	SAME
+jre21/NOTICE/jdk-legal/java.xml/xerces.md	11848	4a6bf6b367193ee6	SAME
+jre21/NOTICE/jdk-legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.accessibility/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.accessibility/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.attach/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.attach/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.attach/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.charsets/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.charsets/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.charsets/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.compiler/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md	4095	1f36ff1342a58114	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11wrapper.md	2131	371974b1fca3744a	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.crypto.ec/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.dynalink/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.dynalink/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.dynalink/dynalink.md	1502	17312591cabee3ef	SAME
+jre21/NOTICE/jdk-legal/jdk.editpad/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.editpad/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.editpad/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.hotspot.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.httpserver/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.httpserver/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.incubator.vector/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.ed/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.ed/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.jvmstat/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.le/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.le/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.le/jline.md	1579	a6fb63a226b77b03	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.opt/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.opt/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.opt/jopt-simple.md	1122	99bc67f93cf57d6d	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.ci/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.internal.vm.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jartool/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jartool/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jartool/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.javadoc/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.javadoc/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.javadoc/jquery.md	1157	b68f454c2bd58959	SAME
+jre21/NOTICE/jdk-legal/jdk.javadoc/jqueryUI.md	1871	7854d2d568992ae2	SAME
+jre21/NOTICE/jdk-legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jcmd/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jcmd/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jconsole/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jconsole/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jdeps/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jdeps/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jdi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jdi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jdi/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jdwp.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jfr/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jfr/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jfr/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jlink/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jlink/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jlink/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jpackage/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jpackage/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jshell/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jshell/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jshell/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jsobject/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jsobject/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.jstatd/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.jstatd/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.localedata/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.localedata/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.localedata/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.localedata/cldr.md	9601	19515e14a240e022	SAME
+jre21/NOTICE/jdk-legal/jdk.localedata/thaidict.md	1346	c326144a2351c960	SAME
+jre21/NOTICE/jdk-legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.management.agent/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.management.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.management.jfr/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.management.jfr/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.management/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.naming.dns/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.naming.dns/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.naming.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.net/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.net/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.net/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.nio.mapmode/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.random/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.random/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.random/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.sctp/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.sctp/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.sctp/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.security.auth/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.security.auth/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.security.jgss/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.security.jgss/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.unsupported.desktop/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.unsupported/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.unsupported/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.xml.dom/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.xml.dom/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/jdk-legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre21/NOTICE/jdk-legal/jdk.zipfs/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre21/NOTICE/jdk-legal/jdk.zipfs/LICENSE	19274	4b9abebc4338048a	SAME
+jre21/NOTICE/licenses/AGPL-3.0-only.txt	34523	0d96a4ff68ad6d4b	SAME
+jre21/NOTICE/licenses/AGPL-3.0-or-later.txt	34523	0d96a4ff68ad6d4b	SAME
+jre21/NOTICE/licenses/AGPL-3.0.txt	34523	0d96a4ff68ad6d4b	SAME
+jre21/NOTICE/licenses/Apache-2.0.txt	11358	cfc7749b96f63bd3	SAME
+jre21/NOTICE/licenses/Artistic-License-2.0.txt	6108	b06b8a07ae5c40f5	SAME
+jre21/NOTICE/licenses/BSL-1.0.txt	1280	7f8a88ce52c07996	SAME
+jre21/NOTICE/licenses/CC0-1.0.txt	7048	a2010f343487d3f7	SAME
+jre21/NOTICE/licenses/CeCILL-2.1.txt	21777	506e5ae49c2931f7	SAME
+jre21/NOTICE/licenses/EPL-1.0.txt	11320	0435570a20c5b246	SAME
+jre21/NOTICE/licenses/EPL-2.0.txt	14200	2efc4c34579dc45f	SAME
+jre21/NOTICE/licenses/GPL-2.0-only.txt	18092	8177f97513213526	SAME
+jre21/NOTICE/licenses/GPL-2.0-or-later.txt	18092	8177f97513213526	SAME
+jre21/NOTICE/licenses/GPL-2.0.txt	18092	8177f97513213526	SAME
+jre21/NOTICE/licenses/GPL-3.0-only.txt	35149	3972dc9744f6499f	SAME
+jre21/NOTICE/licenses/GPL-3.0-or-later.txt	35149	3972dc9744f6499f	SAME
+jre21/NOTICE/licenses/GPL-3.0.txt	35149	3972dc9744f6499f	SAME
+jre21/NOTICE/licenses/ISC.txt	731	45fefea443e839d0	SAME
+jre21/NOTICE/licenses/ImageMagick.txt	12443	5b47db9327547434	SAME
+jre21/NOTICE/licenses/LGPL-2.0-only.txt	25383	b7993225104d90dd	SAME
+jre21/NOTICE/licenses/LGPL-2.0-or-later.txt	25383	b7993225104d90dd	SAME
+jre21/NOTICE/licenses/LGPL-2.0.txt	25383	b7993225104d90dd	SAME
+jre21/NOTICE/licenses/LGPL-2.1-only.txt	26530	dc626520dcd53a22	SAME
+jre21/NOTICE/licenses/LGPL-2.1-or-later.txt	26530	dc626520dcd53a22	SAME
+jre21/NOTICE/licenses/LGPL-2.1.txt	26530	dc626520dcd53a22	SAME
+jre21/NOTICE/licenses/LGPL-3.0-only.txt	7652	e3a994d82e644b03	SAME
+jre21/NOTICE/licenses/LGPL-3.0-or-later.txt	7652	e3a994d82e644b03	SAME
+jre21/NOTICE/licenses/LGPL-3.0.txt	7652	e3a994d82e644b03	SAME
+jre21/NOTICE/licenses/MPL-2.0.txt	15192	9bc20a15c6140769	SAME
+jre21/NOTICE/licenses/NCSA.txt	1662	aecb9504bcc76b4f	SAME
+jre21/NOTICE/licenses/Nethack.txt	4875	93a3ae2cb8dee482	SAME
+jre21/NOTICE/licenses/OpenLDAP.txt	2214	310fe25c858a9515	SAME
+jre21/NOTICE/licenses/PHP-3.0.txt	3194	e4f797cb2c221a20	SAME
+jre21/NOTICE/licenses/Public Domain.txt	7048	a2010f343487d3f7	SAME
+jre21/NOTICE/licenses/Unlicense.txt	1210	88d9b4eb60579c19	SAME
+jre21/NOTICE/licenses/VIM License.txt	13899	cfc1edda2b488ecd	SAME
+jre21/NOTICE/licenses/WTFPL.txt	483	96f17857f3eb28a7	SAME
+jre21/NOTICE/licenses/wxWindows.txt	2416	5ea1544b51a28bc8	SAME
+jre21/NOTICE/packages/alsa-lib/copyright	26530	dc626520dcd53a22	SAME
+jre21/NOTICE/packages/libandroid-shmem/copyright	1529	0dd43abe17196b02	SAME
+jre21/NOTICE/packages/libandroid-spawn/LICENSE	1318	511ce23b36ca7dd3	SAME
+jre21/NOTICE/packages/libandroid-sysv-semaphore/copyright	1318	847e3e5accf5863b	SAME
+jre21/NOTICE/packages/libiconv/copyright	26530	dc626520dcd53a22	SAME
+jre21/NOTICE/packages/libiconv/copyright.1	35149	3972dc9744f6499f	SAME
+jre21/NOTICE/packages/libjpeg-turbo/LICENSE.md	6077	ba6bceebcba0fdd3	SAME
+jre21/NOTICE/packages/littlecms/copyright	1080	6dbd60437f8ef91d	SAME
+jre21/NOTICE/packages/openjdk-21/copyright	18092	8177f97513213526	SAME
+jre21/NOTICE/packages/termux-licenses/copyright	35149	3972dc9744f6499f	SAME
+jre21/NOTICE/packages/zlib/copyright	1002	e32ff4e00d9d9493	SAME
+jre21/bin-arm64.tar.xz	5902036	f3d487bb83a1d970	SAME
+jre21/universal.tar.xz	33087332	167b4c3e69acb632	SAME
+jre21/version	470	87da850e1a7b4573	SAME
+jre25/NOTICE/NOTICE.txt	5938	3ee8892aa1c314f7	SAME
+jre25/NOTICE/README.txt	989	246698f8d76b3836	SAME
+jre25/NOTICE/SOURCE_OFFER.txt	1574	947b5e117bc59031	SAME
+jre25/NOTICE/jdk-legal/java.base/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.base/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.base/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.base/aes.md	1444	45c6d4da48325edf	SAME
+jre25/NOTICE/jdk-legal/java.base/c-libutl.md	1556	bef40679922d6fdf	SAME
+jre25/NOTICE/jdk-legal/java.base/cldr.md	8790	472e341c36efc113	SAME
+jre25/NOTICE/jdk-legal/java.base/icu.md	4147	be23ad20a8231d22	SAME
+jre25/NOTICE/jdk-legal/java.base/public_suffix.md	17783	861de1e4992a7d28	SAME
+jre25/NOTICE/jdk-legal/java.base/siphash.md	8256	5a792b5a74ad2a5f	SAME
+jre25/NOTICE/jdk-legal/java.base/unicode.md	15098	5194d6760f2e7ecc	SAME
+jre25/NOTICE/jdk-legal/java.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.compiler/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.datatransfer/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.datatransfer/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.datatransfer/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.desktop/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.desktop/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.desktop/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.desktop/colorimaging.md	167	04d61e3e8e71dd45	SAME
+jre25/NOTICE/jdk-legal/java.desktop/harfbuzz.md	3629	5ec7cba7f8e7fc3a	SAME
+jre25/NOTICE/jdk-legal/java.desktop/mesa3d.md	5732	63f4e6f75caebbcc	SAME
+jre25/NOTICE/jdk-legal/java.desktop/pipewire.md	1479	56a8fb1652c70ac2	SAME
+jre25/NOTICE/jdk-legal/java.desktop/xwd.md	1348	1d4ffa93c87f3508	SAME
+jre25/NOTICE/jdk-legal/java.instrument/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.instrument/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.instrument/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.logging/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.logging/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.logging/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.management.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.management.rmi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.management.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.management/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.naming/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.naming/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.naming/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.net.http/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.net.http/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.net.http/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.prefs/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.prefs/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.prefs/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.rmi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.scripting/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.scripting/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.scripting/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.se/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.se/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.se/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.security.jgss/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.security.jgss/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.security.jgss/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.security.sasl/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.security.sasl/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.security.sasl/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.smartcardio/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.smartcardio/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.smartcardio/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.smartcardio/pcsclite.md	2155	3ad4c89f51e0c791	SAME
+jre25/NOTICE/jdk-legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.sql.rowset/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.sql.rowset/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.sql/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.sql/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.sql/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.transaction.xa/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.transaction.xa/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.xml.crypto/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.xml.crypto/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.xml.crypto/santuario.md	11505	d08690d25f660f14	SAME
+jre25/NOTICE/jdk-legal/java.xml/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/java.xml/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/java.xml/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/java.xml/bcel.md	11196	cd578186ad93de46	SAME
+jre25/NOTICE/jdk-legal/java.xml/dom.md	3761	6686e8877667584a	SAME
+jre25/NOTICE/jdk-legal/java.xml/jcup.md	1448	8d5dcfdf50455a3c	SAME
+jre25/NOTICE/jdk-legal/java.xml/schema10part1.md	2138	b220f891e5bfa3aa	SAME
+jre25/NOTICE/jdk-legal/java.xml/schema10part2.md	2136	2350e35e91866d5e	SAME
+jre25/NOTICE/jdk-legal/java.xml/xalan.md	13477	02bd013fc3f438db	SAME
+jre25/NOTICE/jdk-legal/java.xml/xerces.md	11848	4a6bf6b367193ee6	SAME
+jre25/NOTICE/jdk-legal/java.xml/xhtml10.md	2634	9a5cde47073ca80c	SAME
+jre25/NOTICE/jdk-legal/java.xml/xhtml10schema.md	7521	7bc51d884aaae6ef	SAME
+jre25/NOTICE/jdk-legal/java.xml/xhtml11.md	3258	4f99a390896f0f55	SAME
+jre25/NOTICE/jdk-legal/java.xml/xhtml11schema.md	3224	8cd69b1392e28653	SAME
+jre25/NOTICE/jdk-legal/java.xml/xmlspec.md	2719	afec263bf5dc6769	SAME
+jre25/NOTICE/jdk-legal/java.xml/xmlxsd.md	1951	498a5fec63509a8f	SAME
+jre25/NOTICE/jdk-legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.accessibility/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.accessibility/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.attach/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.attach/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.attach/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.charsets/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.charsets/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.charsets/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.compiler/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md	4095	1f36ff1342a58114	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.cryptoki/pkcs11wrapper.md	2131	371974b1fca3744a	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.crypto.ec/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.dynalink/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.dynalink/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.dynalink/dynalink.md	1502	17312591cabee3ef	SAME
+jre25/NOTICE/jdk-legal/jdk.editpad/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.editpad/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.editpad/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.graal.compiler.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.graal.compiler.management/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.graal.compiler.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.graal.compiler/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.graal.compiler/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.graal.compiler/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.hotspot.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.httpserver/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.httpserver/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.incubator.vector/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.incubator.vector/sleef.md	20491	ee27da65f6a1025f	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.ed/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.ed/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.jvmstat/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.le/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.le/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.le/jline.md	1579	a6fb63a226b77b03	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.md/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.md/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.md/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.md/commonmark.md	1354	23a6f08218b13b6d	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.opt/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.opt/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.opt/jopt-simple.md	1122	99bc67f93cf57d6d	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.internal.vm.ci/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jartool/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jartool/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jartool/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.javadoc/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.javadoc/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.javadoc/dejavufonts.md	8841	bcec55913c89822a	SAME
+jre25/NOTICE/jdk-legal/jdk.javadoc/highlightjs.md	1573	3e153ecf41179d31	SAME
+jre25/NOTICE/jdk-legal/jdk.javadoc/jquery.md	1157	b68f454c2bd58959	SAME
+jre25/NOTICE/jdk-legal/jdk.javadoc/jqueryUI.md	1871	7854d2d568992ae2	SAME
+jre25/NOTICE/jdk-legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jcmd/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jcmd/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jconsole/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jconsole/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jdeps/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jdeps/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jdi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jdi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jdi/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jdwp.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jfr/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jfr/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jfr/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jlink/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jlink/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jlink/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jpackage/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jpackage/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jshell/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jshell/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jshell/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jsobject/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jsobject/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.jstatd/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.jstatd/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.localedata/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.localedata/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.localedata/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.localedata/cldr.md	8790	472e341c36efc113	SAME
+jre25/NOTICE/jdk-legal/jdk.localedata/thaidict.md	1346	c326144a2351c960	SAME
+jre25/NOTICE/jdk-legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.management.agent/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.management.agent/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.management.jfr/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.management.jfr/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.management/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.management/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.management/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.naming.dns/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.naming.dns/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.naming.rmi/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.net/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.net/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.net/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.nio.mapmode/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.sctp/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.sctp/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.sctp/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.security.auth/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.security.auth/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.security.jgss/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.security.jgss/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.unsupported.desktop/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.unsupported/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.unsupported/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.xml.dom/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.xml.dom/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/jdk-legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO	2114	a69bce275ba7a357	SAME
+jre25/NOTICE/jdk-legal/jdk.zipfs/ASSEMBLY_EXCEPTION	1514	75292f03bf23d3db	SAME
+jre25/NOTICE/jdk-legal/jdk.zipfs/LICENSE	19274	4b9abebc4338048a	SAME
+jre25/NOTICE/licenses/AGPL-3.0-only.txt	34523	0d96a4ff68ad6d4b	SAME
+jre25/NOTICE/licenses/AGPL-3.0-or-later.txt	34523	0d96a4ff68ad6d4b	SAME
+jre25/NOTICE/licenses/AGPL-3.0.txt	34523	0d96a4ff68ad6d4b	SAME
+jre25/NOTICE/licenses/Apache-2.0.txt	11358	cfc7749b96f63bd3	SAME
+jre25/NOTICE/licenses/Artistic-License-2.0.txt	6108	b06b8a07ae5c40f5	SAME
+jre25/NOTICE/licenses/BSL-1.0.txt	1280	7f8a88ce52c07996	SAME
+jre25/NOTICE/licenses/CC0-1.0.txt	7048	a2010f343487d3f7	SAME
+jre25/NOTICE/licenses/CeCILL-2.1.txt	21777	506e5ae49c2931f7	SAME
+jre25/NOTICE/licenses/EPL-1.0.txt	11320	0435570a20c5b246	SAME
+jre25/NOTICE/licenses/EPL-2.0.txt	14200	2efc4c34579dc45f	SAME
+jre25/NOTICE/licenses/GPL-2.0-only.txt	18092	8177f97513213526	SAME
+jre25/NOTICE/licenses/GPL-2.0-or-later.txt	18092	8177f97513213526	SAME
+jre25/NOTICE/licenses/GPL-2.0.txt	18092	8177f97513213526	SAME
+jre25/NOTICE/licenses/GPL-3.0-only.txt	35149	3972dc9744f6499f	SAME
+jre25/NOTICE/licenses/GPL-3.0-or-later.txt	35149	3972dc9744f6499f	SAME
+jre25/NOTICE/licenses/GPL-3.0.txt	35149	3972dc9744f6499f	SAME
+jre25/NOTICE/licenses/ISC.txt	731	45fefea443e839d0	SAME
+jre25/NOTICE/licenses/ImageMagick.txt	12443	5b47db9327547434	SAME
+jre25/NOTICE/licenses/LGPL-2.0-only.txt	25383	b7993225104d90dd	SAME
+jre25/NOTICE/licenses/LGPL-2.0-or-later.txt	25383	b7993225104d90dd	SAME
+jre25/NOTICE/licenses/LGPL-2.0.txt	25383	b7993225104d90dd	SAME
+jre25/NOTICE/licenses/LGPL-2.1-only.txt	26530	dc626520dcd53a22	SAME
+jre25/NOTICE/licenses/LGPL-2.1-or-later.txt	26530	dc626520dcd53a22	SAME
+jre25/NOTICE/licenses/LGPL-2.1.txt	26530	dc626520dcd53a22	SAME
+jre25/NOTICE/licenses/LGPL-3.0-only.txt	7652	e3a994d82e644b03	SAME
+jre25/NOTICE/licenses/LGPL-3.0-or-later.txt	7652	e3a994d82e644b03	SAME
+jre25/NOTICE/licenses/LGPL-3.0.txt	7652	e3a994d82e644b03	SAME
+jre25/NOTICE/licenses/MPL-2.0.txt	15192	9bc20a15c6140769	SAME
+jre25/NOTICE/licenses/NCSA.txt	1662	aecb9504bcc76b4f	SAME
+jre25/NOTICE/licenses/Nethack.txt	4875	93a3ae2cb8dee482	SAME
+jre25/NOTICE/licenses/OpenLDAP.txt	2214	310fe25c858a9515	SAME
+jre25/NOTICE/licenses/PHP-3.0.txt	3194	e4f797cb2c221a20	SAME
+jre25/NOTICE/licenses/Public Domain.txt	7048	a2010f343487d3f7	SAME
+jre25/NOTICE/licenses/Unlicense.txt	1210	88d9b4eb60579c19	SAME
+jre25/NOTICE/licenses/VIM License.txt	13899	cfc1edda2b488ecd	SAME
+jre25/NOTICE/licenses/WTFPL.txt	483	96f17857f3eb28a7	SAME
+jre25/NOTICE/licenses/wxWindows.txt	2416	5ea1544b51a28bc8	SAME
+jre25/NOTICE/packages/alsa-lib/copyright	26530	dc626520dcd53a22	SAME
+jre25/NOTICE/packages/libandroid-shmem/copyright	1529	0dd43abe17196b02	SAME
+jre25/NOTICE/packages/libandroid-spawn/LICENSE	1318	511ce23b36ca7dd3	SAME
+jre25/NOTICE/packages/libandroid-sysv-semaphore/copyright	1318	847e3e5accf5863b	SAME
+jre25/NOTICE/packages/libiconv/copyright	26530	dc626520dcd53a22	SAME
+jre25/NOTICE/packages/libiconv/copyright.1	35149	3972dc9744f6499f	SAME
+jre25/NOTICE/packages/libjpeg-turbo/LICENSE.md	6077	ba6bceebcba0fdd3	SAME
+jre25/NOTICE/packages/littlecms/copyright	1080	6dbd60437f8ef91d	SAME
+jre25/NOTICE/packages/openjdk-25/copyright	18092	8177f97513213526	SAME
+jre25/NOTICE/packages/termux-licenses/copyright	35149	3972dc9744f6499f	SAME
+jre25/NOTICE/packages/zlib/copyright	1002	e32ff4e00d9d9493	SAME
+jre25/bin-arm64.tar.xz	6417916	1c64a3b473d61ac5	SAME
+jre25/universal.tar.xz	38491816	2c72818d43c883e2	SAME
+jre25/version	468	d878db4e88d8a229	SAME
+jre8/NOTICE/NOTICE.txt	3835	f5713284ed45ae61	SAME
+jre8/NOTICE/README.txt	988	39da485c2a8a4546	SAME
+jre8/NOTICE/SOURCE_OFFER.txt	1704	c9db35b8cd3a32dc	SAME
+jre8/NOTICE/jdk-legal/ASSEMBLY_EXCEPTION	1522	a44eb7b5caf5534c	SAME
+jre8/NOTICE/jdk-legal/LICENSE	19274	4b9abebc4338048a	SAME
+jre8/NOTICE/jdk-legal/THIRD_PARTY_README	158248	18098ef1d2fe501e	SAME
+jre8/bin-arm64.tar.xz	4350504	8e18cc2c15423e8f	SAME
+jre8/universal.tar.xz	9508080	b76f060f649006dd	SAME
+jre8/version	479	e4ff5d9ccc753b76	SAME
+------------------------------------------------------------------------------------------------
+合计 894 个文件 / 135.55 MiB (142135366 B);本次新增或变更 1 个 / 890.58 KiB (911950 B)
 来源与许可:见 <component>/NOTICE/NOTICE.txt 与 SOURCE_OFFER.txt;
-index.json 的 source 字段记着每个输入 .deb 的名字/size/sha256(可回溯到 Termux 的包)。
+index.json 的 source 字段记着每个输入(.deb 或上游产物)的名字/size/sha256。

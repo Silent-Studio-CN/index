@@ -1,0 +1,11 @@
+id=jre8/1.8.0_442/arm64-v8a/1eb12d318dcc508f
+component=jre8
+version=1.8.0_442
+abi=arm64-v8a
+shim_dir=lib/aarch64
+trimmed=jmods,include,man,demo,sample,lib/src.zip
+universal.size=9508080
+universal.sha256=b76f060f649006ddf805e55136d797822f158fe4496062ed9189b81ce7bd28c6
+bin-arm64.size=4350504
+bin-arm64.sha256=8e18cc2c15423e8fb798446eec57bf4d3370eedf469b7eedaf4287e8d4d2549a
+# sxcl jre package marker - id 由上面两个包的 sha256 派生(内容派生,不是手改的计数器)
